@@ -173,8 +173,10 @@ html[data-look] .filter.active,html[data-look] .filter.active:hover{background:#
   radial-gradient(circle,var(--page-wall) 0 3.4px,transparent 3.9px) calc(100% - 9px) 9px/20px 20px no-repeat,
   radial-gradient(circle,var(--page-wall) 0 3.4px,transparent 3.9px) 9px calc(100% - 9px)/20px 20px no-repeat,
   radial-gradient(circle,var(--page-wall) 0 3.4px,transparent 3.9px) calc(100% - 9px) calc(100% - 9px)/20px 20px no-repeat,
-  linear-gradient(rgba(176,176,174,.55),rgba(168,168,166,.55)),
-  url(../assets/steel-surface-v7.webp) center/cover no-repeat!important}
+  radial-gradient(ellipse at 0 0,rgba(255,255,255,.09),rgba(255,255,255,0) 62%),
+  linear-gradient(118deg,rgba(255,255,255,.05),rgba(255,255,255,0) 45%,rgba(0,0,0,.05)),
+  url(../assets/steel-brushed.webp) 0 0/1050px 600px repeat!important}
+/* 11-14 ZH：内页铭牌换成和首页 3D 钢板同一套拉丝算法生成的材质（steel-brushed.webp：横向细拉丝 + 细噪点，左上亮右下暗） */
 .site-contact h2{padding-bottom:12px;border-bottom:1px solid rgba(40,40,38,.55);margin-bottom:18px}
 /* 11-14 About 加展览经历：通栏，年份在左、事件居中、地点靠右 */
 .about-sheet{grid-template-areas:"me artist" "me builder" "exh exh"}
