@@ -397,13 +397,19 @@
     if (MIX && frames.length) {
       const works = frames; frames = [];
       const one = logoFrame || textFrame(side);
-      works.forEach((work, i) => {
-        frames.push(work);
-        // Two fixed appearances per loop; the experimental modes keep their paired transitions.
-        if (!HERO && i !== 1 && i !== 5) return;
-        nameFrames.add(frames.length);
-        frames.push(one);
+      // 11-14 ZH: the loop now opens on the ZH logo (it used to open on 张江); still two logos per loop.
+      if (HERO) works.forEach((work, i) => {
+        frames.push(work);   // experimental ?hero= modes keep a logo after every work, as before
+        nameFrames.add(frames.length); frames.push(one);
       });
+      else {
+        const mid = Math.max(0, Math.floor(works.length / 2) - 1);
+        nameFrames.add(0); frames.push(one);
+        works.forEach((work, i) => {
+          frames.push(work);
+          if (i === mid) { nameFrames.add(frames.length); frames.push(one); }
+        });
+      }
     }
     flightGroups = null;
     delays = new Float32Array(side * side);

@@ -172,3 +172,6 @@ html body :is(.site-codes,.contact-codes) img{background:transparent;padding:0;b
 /* 11-14 手机修正：折叠菜单在浅色版里字看不见（深底深字），改成和标头一样的深灰底、浅色字；内页联系方式的 WeChat 字样被 .ms figcaption 藏掉了 */
 @media(max-width:650px){html body .mobile-menu:not([hidden]){background:#2e2e2c;border-bottom:0;box-shadow:0 14px 28px rgba(0,0,0,.28)}html body .mobile-menu a{color:#f0efea;border-top-color:rgba(240,239,234,.16)}html body .mobile-menu a:first-child{border-top-color:transparent}}
 html body .site-codes figcaption{display:block}
+
+/* 11-14 手机标头：四个栏目放不下（约 365px，标头只剩约 240px），只把 About 拿出来放在语言切换左边；菜单按钮改成和语言切换一样的深灰胶囊风格；菜单里不再重复 About */
+@media(max-width:650px){html body .site-header{grid-template-columns:1fr auto auto;column-gap:8px}html body .site-header .desktop-nav{display:flex;gap:0}html body .site-header .desktop-nav .pill:not(.nav-about){display:none}html body .site-header .desktop-nav .nav-about{display:inline-flex}html body .mobile-menu a[href$="about/"]{display:none}html body .site-header .header-right .menu-toggle{background:#30302e;border:1px solid #45453f;box-shadow:none}html body .site-header .header-right .menu-toggle span{background:#f0efea}}
