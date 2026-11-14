@@ -71,6 +71,9 @@
     const gutters = first.slice(1).map((c, i) => Math.round((first[i].r + c.l) / 2));
     const pts = [[startX, p.b - 2], [startX, dotY]];
     let x = startX;
+    // 11-14 ZH: the wire now only runs from the nameplate to the first work; no snaking down to the contact plate.
+    const ONLY_FIRST = true;
+    if (ONLY_FIRST) { svg.setAttribute('width', m.width); svg.setAttribute('height', m.height); wire.setAttribute('d', `M${startX} ${p.b - 2}L${startX} ${dotY}`); dot.style.left = `${startX}px`; dot.style.top = `${dotY}px`; return; }
     if (gutters.length) {
       let far = true;
       rows.forEach((row, i) => {
