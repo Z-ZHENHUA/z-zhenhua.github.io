@@ -26,7 +26,8 @@
     });
   }
   const video = document.querySelector('.video-slot video'), sound = document.querySelector('.video-sound');
-  if (video) {
+  // 11-14: looping videos (量子荒岛、无面狂欢) play like a GIF: silent, no sound button.
+  if (video && !video.loop) {
     video.muted = false;
     const unmute = () => { video.muted = false; if (sound) sound.hidden = true; video.play().catch(() => {}); };
     video.play().catch(() => { video.muted = true; video.play().catch(() => {}); if (sound) sound.hidden = false; });
