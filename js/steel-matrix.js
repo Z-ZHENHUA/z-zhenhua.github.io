@@ -718,9 +718,7 @@
 
   addEventListener('zh-layout', refresh);
   document.addEventListener('visibilitychange', () => { if (document.hidden) halt(); else resume(); });
-  // Only animates while the first screen is on view.
-  new IntersectionObserver(([entry]) => {
-    visible = entry.isIntersecting;
-    if (visible) resume(); else halt();
-  }).observe(canvas);
+  // 11-14 ZH: keep the loop running while the page is scrolled down, so coming back up never
+  // shows a frame frozen half-way; it only stops when the whole tab is hidden.
+  visible = true;
 })();
