@@ -455,7 +455,7 @@ html body .steel-content #paper .paper-inner{padding:calc(var(--p) + 8px) 22px c
 @media(max-width:650px){html body .steel-content .contact{padding-bottom:calc(4 * var(--p))}}
 
 /* 11-14 ZH：首页加载画面——3D 钢板和材质图都准备好（或超时 9 秒）才淡出，避免先闪棕色底、动画卡一下 */
-.home-loader{position:fixed;inset:0;z-index:1000;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;background:#171714;transition:opacity .55s ease,visibility .55s}
+.home-loader{position:fixed;inset:0;z-index:5000;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;background:#171714;transition:opacity .55s ease,visibility .55s}
 html[data-look] .home-loader{background:#e3e4e5}
 .home-loader-mark{width:84px;height:84px;background:#f0efea;-webkit-mask:url(../assets/favicon-512.png?v=3) center/contain no-repeat;mask:url(../assets/favicon-512.png?v=3) center/contain no-repeat;animation:home-loader-pulse 1.4s ease-in-out infinite}
 html[data-look] .home-loader-mark{background:#2e2e2c}

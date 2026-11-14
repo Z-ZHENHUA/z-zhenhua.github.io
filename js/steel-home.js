@@ -70,8 +70,9 @@
     const right=(r,y)=>{const x=r.x+r.w-inset;clip(x,y);return [x+R-1,y];};
     const wire=(pts,a,b)=>({pts,flare:[a,b]});
     if (mobile) return {clips, traces:[
-      wire([[11*p,H],top(C,11*p)],F,0), wire([[15*p,H],top(C,15*p)],F,0),
-      wire([bottom(C,16*p),[16*p,L.y]],0,F), wire([[13*p,end(L)],top(c1,13*p)],F,0),
+      // 11-14 ZH: only one wire clips onto the Recent Work card; the second bends out past its right edge and back, like the wide layout.
+      wire([[11*p,H],top(C,11*p)],F,0), wire([[16*p,H],[16*p,H+.8*p],[23*p,H+2.2*p],[23*p,end(C)+.6*p],[16*p,end(C)+2*p],[16*p,L.y]],F,F),
+      wire([[13*p,end(L)],top(c1,13*p)],F,0),
       wire([bottom(c1,8*p),[8*p,end(c1)+.4*p],[10.2*p,end(c1)+2.6*p],top(c2,10.2*p)],0,0),
       wire([bottom(c2,16*p),[16*p,end(c2)+.4*p],[13.8*p,end(c2)+2.6*p],top(c3,13.8*p)],0,0),
       wire([bottom(c3,14*p),top(A,14*p)],0,0), wire([bottom(A,14*p),[14*p,K.y]],0,F)],

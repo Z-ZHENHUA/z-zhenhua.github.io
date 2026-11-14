@@ -179,3 +179,6 @@ html body .site-codes figcaption{display:block}
 /* 11-14 ZH：电脑上标头四个栏目移到右边，挨着中/EN 右对齐；手机第二行也靠右 */
 @media(min-width:651px){html body .site-header .desktop-nav{margin-left:auto!important;margin-right:0!important;justify-self:end}html body .site-header .header-right{margin-left:10px!important}}
 @media(max-width:650px){html body .site-header .desktop-nav{justify-content:flex-end}}
+
+/* 11-14 ZH：手机标头第二行四个按钮左右顶齐、等间距铺满一行（宽度按字数分），看起来整齐 */
+@media(max-width:650px){html body .site-header .desktop-nav{display:flex!important;justify-content:stretch;gap:6px}html body .site-header .desktop-nav .pill{flex:1 1 auto;justify-content:center;padding:5px 6px}}
