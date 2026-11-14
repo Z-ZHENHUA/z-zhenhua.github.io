@@ -1,0 +1,100 @@
+/* Home "Artworks" row: same folder cards as the artworks list page, on a sliding track.
+   The three .art-slot elements only hold the layout (steel plates, wires and clips are
+   measured from them); the visible cards live in .art-track on top. */
+.art-row[data-carousel]{position:relative}
+.art-row .art-slot{background:transparent!important;box-shadow:none!important;padding:0!important}
+.art-row .art-slot::before,.art-row .art-slot::after{display:none}
+.art-slot-size{aspect-ratio:4/3}
+.art-viewport{position:absolute;top:0;z-index:3;clip-path:inset(-48px 0 -16px 0)}
+.art-track{display:flex;will-change:transform}
+.art-track.is-sliding{transition:transform .85s cubic-bezier(.65,0,.35,1)}
+.art-row.is-static .art-viewport{position:static;clip-path:none}
+.art-row.is-static .art-viewport{display:none}
+.art-slot-size[hidden]{display:none}
+
+.home-card{position:relative;flex:0 0 auto}
+.home-card>a{position:relative;z-index:2;display:block;border-radius:18px;overflow:hidden;background:#000;color:#fff;text-decoration:none}
+.home-card::before{content:"";position:absolute;z-index:0;left:0;right:0;top:-19px;bottom:10px;border-radius:18px;background:var(--back,#2a2a27)}
+.home-card::after{content:"";position:absolute;z-index:1;left:4.5%;right:4.5%;top:-12px;height:58%;border-radius:10px;background:#080808 var(--spec,none) left top/600px 100% repeat-x;box-shadow:0 1px 3px rgba(0,0,0,.35);transform:rotate(-.7deg);transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s ease,filter .35s ease}
+.home-card.tilt-r::after{transform:rotate(.6deg)}
+@media(hover:hover){.home-card:hover::after{transform:translateY(-22px) rotate(-1.6deg);filter:brightness(1.15);box-shadow:0 0 6px var(--glow,#fff)}.home-card.tilt-r:hover::after{transform:translateY(-22px) rotate(1.4deg)}}
+@supports (clip-path:shape(from 0 0,close)){
+  .home-card>a{border-radius:0}
+  .home-card>a.step-a{clip-path:shape(from 18px 0,hline to calc(70% - 8px),arc to 70% 8px of 8px cw,arc to calc(70% + 8px) 16px of 8px ccw,hline to calc(100% - 18px),arc to 100% 34px of 18px cw,vline to calc(100% - 18px),arc to calc(100% - 18px) 100% of 18px cw,hline to 18px,arc to 0 calc(100% - 18px) of 18px cw,vline to 18px,arc to 18px 0 of 18px cw,close)}
+  .home-card>a.step-b{clip-path:shape(from calc(26% + 18px) 0,hline to calc(100% - 18px),arc to 100% 18px of 18px cw,vline to calc(100% - 18px),arc to calc(100% - 18px) 100% of 18px cw,hline to 18px,arc to 0 calc(100% - 18px) of 18px cw,vline to 34px,arc to 18px 16px of 18px cw,hline to calc(26% - 8px),arc to 26% 8px of 8px ccw,arc to calc(26% + 8px) 0 of 8px cw,close)}
+  .home-card>a.step-c{clip-path:shape(from 18px 0,hline to calc(100% - 18px),arc to 100% 18px of 18px cw,vline to calc(100% - 18px),arc to calc(100% - 18px) 100% of 18px cw,hline to calc(24% + 8px),arc to 24% calc(100% - 8px) of 8px cw,arc to calc(24% - 8px) calc(100% - 16px) of 8px ccw,hline to 18px,arc to 0 calc(100% - 34px) of 18px cw,vline to 18px,arc to 18px 0 of 18px cw,close)}
+}
+.home-card .window{position:relative;display:block;aspect-ratio:4/3;overflow:hidden;background:#000}
+.home-card .window img{position:absolute;display:block}
+.home-card .window .photo{left:50%;top:50%;width:100%;height:100%;transform:translate(-50%,-50%);object-fit:cover;transition:opacity .3s ease}
+.home-card .window.fit-width .photo{height:auto;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(to bottom,transparent,#000 7%,#000 93%,transparent)}
+.home-card .window.fit-height .photo{width:auto;-webkit-mask-image:linear-gradient(to right,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(to right,transparent,#000 7%,#000 93%,transparent)}
+.home-card .window .icon{inset:12%;width:76%;height:76%;object-fit:contain;filter:invert(1);opacity:0;transition:opacity .3s ease}
+.home-card .window::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.74),rgba(0,0,0,0) 46%);pointer-events:none}
+@media(hover:hover){.home-card>a:hover .photo{opacity:0}.home-card>a:hover .icon{opacity:1}}
+.home-card>a:focus-visible .photo{opacity:0}.home-card>a:focus-visible .icon{opacity:1}
+.home-card .caption{position:absolute;left:22px;right:22px;bottom:18px;z-index:2;display:block;color:#fff}
+.home-card .meta{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 8px;font-size:12px;line-height:1.4;color:rgba(255,255,255,.84)}
+.home-card .tag{padding:4px 9px;border:1px solid rgba(255,255,255,.55);border-radius:20px;color:#fff}
+.art-row .home-card strong{display:block;min-height:0;font-size:17px;line-height:1.4;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.45)}
+@media(max-width:650px){.home-card .caption{left:16px;right:16px;bottom:12px}.art-row .home-card strong{font-size:15px}}
+
+/* Recent Work image as a folder too. */
+.recent-image.home-card{overflow:visible!important;background:transparent!important;border-radius:0!important;aspect-ratio:auto!important;margin-top:22px}
+.recent-image.home-card::after{content:"";display:block}
+.recent-image.home-card img{width:auto;height:auto}
+.recent-image.home-card .window{aspect-ratio:4/3}
+.recent-image.home-card .window .photo{width:100%;height:100%}
+.recent-image.home-card .window .icon{width:48px;height:48px;right:20px;bottom:20px}
+/* Clips repeated above the cards. */
+.home-clip{position:absolute;z-index:6;width:20px;height:20px;margin:-10px 0 0 -10px;border-radius:50%;pointer-events:none;background:radial-gradient(circle,#f3f1ea 0 4.2px,#9c9a93 4.8px);box-shadow:inset 1px 1px 0 rgba(255,255,255,.55),inset -1px -1px 0 rgba(0,0,0,.3),1px 2px 3px rgba(20,20,19,.3)}
+/* 11-11 ZH: no photo-to-icon swap on hover; icon small in the lower right. */
+.home-card .window .photo,.home-card>a:hover .photo,.home-card>a:focus-visible .photo{opacity:1!important}
+.home-card .window .icon{inset:auto;right:16px;bottom:16px;width:40px;height:40px;opacity:.92!important;z-index:3}
+@media(max-width:650px){.home-card .window .icon{right:12px;bottom:12px;width:32px;height:32px}}
+/* 11-11 ZH: icon in the lower right of artwork cards removed. */
+.home-card .window .icon{display:none!important}
+/* ?cards=plain : preview without the spectrum sheet and the back folder layer. */
+.cards-plain .home-card::before,.cards-plain .home-card::after{display:none!important}
+.cards-plain .recent-image.home-card{margin-top:0}
+/* plain cards: the raised strip of each folder shape shows the spectrum instead of the photo (11-11). */
+.cards-plain .work-card>a.photo-card,.cards-plain .home-card>a{position:relative}
+.cards-plain :is(.work-card,.home-card)>a:is(.step-a,.step-b,.step-c)::before{content:"";position:absolute;z-index:4;height:16px;pointer-events:none;background:#080808 var(--spec,none) left top/600px 100% repeat-x}
+.cards-plain :is(.work-card,.home-card)>a.step-a::before{left:0;width:70%;top:0}
+.cards-plain :is(.work-card,.home-card)>a.step-b::before{left:26%;right:0;top:0}
+.cards-plain :is(.work-card,.home-card)>a.step-c::before{left:24%;right:0;bottom:0}
+/* plain cards: no hover motion for now (11-11, ZH: "先去掉吧"). */
+/* 11-11: the spectrum strip on the raised tab removed too (ZH: "先把光谱条去掉吧"). */
+.cards-plain :is(.work-card,.home-card)>a:is(.step-a,.step-b,.step-c)::before{display:none!important}
+/* 11-11: hover = the card swings aside like a playing card and the layer underneath shows its spectrum light. */
+.cards-plain .home-card.home-card::after{display:block!important;content:"";position:absolute;z-index:0;inset:0;height:auto;border-radius:18px;background:#080808 var(--spec,none) left top/600px 100% repeat-x;transform:none;filter:brightness(1.1);box-shadow:none;transition:box-shadow .5s ease}
+.cards-plain .home-card.home-card>a{position:relative;z-index:2;transform-origin:10% 100%;transition:transform .55s cubic-bezier(.2,.8,.2,1)}
+@media(hover:hover){
+  .cards-plain .home-card.home-card:hover>a{transform:translate(-6px,-4px) rotate(-3.5deg)}
+  .cards-plain .home-card.home-card:hover::after{box-shadow:0 0 10px color-mix(in srgb,var(--glow,#fff) 55%,transparent)}
+}
+.cards-plain .home-card.home-card:has(>a:focus-visible)>a{transform:translate(-6px,-4px) rotate(-3.5deg)}
+@media(prefers-reduced-motion:reduce){.cards-plain .home-card.home-card>a{transition:none}}
+@supports (clip-path:shape(from 0 0,close)){
+  .cards-plain .home-card.home-card:has(>a.step-a)::after{border-radius:0;clip-path:shape(from 18px 0,hline to calc(70% - 8px),arc to 70% 8px of 8px cw,arc to calc(70% + 8px) 16px of 8px ccw,hline to calc(100% - 18px),arc to 100% 34px of 18px cw,vline to calc(100% - 18px),arc to calc(100% - 18px) 100% of 18px cw,hline to 18px,arc to 0 calc(100% - 18px) of 18px cw,vline to 18px,arc to 18px 0 of 18px cw,close)}
+  .cards-plain .home-card.home-card:has(>a.step-b)::after{border-radius:0;clip-path:shape(from calc(26% + 18px) 0,hline to calc(100% - 18px),arc to 100% 18px of 18px cw,vline to calc(100% - 18px),arc to calc(100% - 18px) 100% of 18px cw,hline to 18px,arc to 0 calc(100% - 18px) of 18px cw,vline to 34px,arc to 18px 16px of 18px cw,hline to calc(26% - 8px),arc to 26% 8px of 8px ccw,arc to calc(26% + 8px) 0 of 8px cw,close)}
+  .cards-plain .home-card.home-card:has(>a.step-c)::after{border-radius:0;clip-path:shape(from 18px 0,hline to calc(100% - 18px),arc to 100% 18px of 18px cw,vline to calc(100% - 18px),arc to calc(100% - 18px) 100% of 18px cw,hline to calc(24% + 8px),arc to 24% calc(100% - 8px) of 8px cw,arc to calc(24% - 8px) calc(100% - 16px) of 8px ccw,hline to 18px,arc to 0 calc(100% - 34px) of 18px cw,vline to 18px,arc to 18px 0 of 18px cw,close)}
+}
+/* 11-11 v2: three swing variants, the layer underneath moves the other way and glows, saturated. */
+.cards-plain .home-card.home-card::after{transition:transform .55s cubic-bezier(.2,.8,.2,1),filter .55s ease,box-shadow .55s ease}
+.cards-plain .home-card.home-card:nth-child(3n+2)>a{transform-origin:90% 100%}
+.cards-plain .home-card.home-card:nth-child(3n)>a{transform-origin:50% 100%}
+@media(hover:hover){
+  .cards-plain .home-card.home-card:hover::after{filter:brightness(1.18) saturate(1.6);box-shadow:0 0 6px var(--glow,#fff),0 0 22px color-mix(in srgb,var(--glow,#fff) 55%,transparent)}
+  .cards-plain .home-card.home-card:nth-child(3n+1):hover>a{transform:translate(-8px,-5px) rotate(-3.5deg)}
+  .cards-plain .home-card.home-card:nth-child(3n+1):hover::after{transform:translate(7px,3px) rotate(1.6deg)}
+  .cards-plain .home-card.home-card:nth-child(3n+2):hover>a{transform:translate(8px,-5px) rotate(3.5deg)}
+  .cards-plain .home-card.home-card:nth-child(3n+2):hover::after{transform:translate(-7px,3px) rotate(-1.6deg)}
+  .cards-plain .home-card.home-card:nth-child(3n):hover>a{transform:translateY(-12px) rotate(-1deg)}
+  .cards-plain .home-card.home-card:nth-child(3n):hover::after{transform:translateY(6px) rotate(1.2deg) scale(.985)}
+}
+/* 11-11 English: longer text must not stretch the recent-work folder (it showed the spectrum layer below the photo) */
+.recent-layout{align-items:start}
+.recent-image.home-card,.recent-image.home-card>a{align-self:start;height:auto!important}
+.lang-en .recent-description p{font-size:13px!important;line-height:1.55!important;margin-bottom:14px}
+.lang-en .recent-description h3{font-size:20px}

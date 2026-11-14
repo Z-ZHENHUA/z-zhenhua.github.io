@@ -1,0 +1,5 @@
+# 不上传：素材库快捷方式、大视频（改放 B 站）、本地说明
+assets/library
+assets/video/
+README.md
+.DS_Store

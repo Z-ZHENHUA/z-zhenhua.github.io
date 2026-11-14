@@ -1,0 +1,182 @@
+/* Work detail pages: a manuscript spread on black, no steel or wires. */
+html body.work-page{background:var(--page-wall);background-image:none}
+.ms{position:relative}
+.ms>*:not(.rail-svg){position:relative;z-index:1}
+.ms-margin{z-index:2!important}
+.ms{box-sizing:border-box;display:grid;grid-template-columns:minmax(150px,1.6fr) minmax(0,8.4fr);gap:0 clamp(28px,4vw,64px);width:min(100%,1320px);margin:0 auto;padding:44px clamp(16px,3vw,44px) 40px;font-family:Inter,-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;color:#f2f0ea}
+.ms-margin{position:sticky!important;top:92px;align-self:start;padding-top:8px;font-size:13px;line-height:1.6;color:#a9a7a0}
+.work-back{display:inline-block;margin-bottom:0;white-space:nowrap;color:#f2f0ea;text-decoration:none}
+.work-back:hover{text-decoration:underline;text-underline-offset:4px}
+.ms-facts{margin:0}
+.ms-facts div{margin-bottom:16px}
+.ms-facts dt{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#77756e}
+.ms-facts dd{margin:2px 0 0;color:#e7e5de}
+.ms-folio{margin:34px 0 0;font-size:11px;letter-spacing:.06em;color:#77756e}
+.ms-title{margin:0;font:700 clamp(38px,5.6vw,78px)/1.12 Doto,"PingFang SC",sans-serif;color:#f2f0ea}
+.ms-zh{margin:14px 0 0;font-size:24px;line-height:1.4;color:#f2f0ea}
+.ms-meta{margin:12px 0 34px;font-size:16px;line-height:1.5;color:#a9a7a0}
+.ms-title:last-child{margin-bottom:34px}
+.ms .detail-block{margin:0;padding:0;border:0;max-width:none}
+.ms figure{margin:0 0 10px}
+.ms figure img{display:block;width:100%;height:auto;background:transparent}
+.ms figcaption{display:none}
+.ms figcaption.is-ai{display:block;margin:8px 2px 14px;font-size:12px;color:#8b8a83}
+/* Statement set like a manuscript: a large opening paragraph, then a narrow indented column, closed with a mark. */
+.work-text{margin:30px 0 64px;padding-top:26px;border-top:1px solid #34342f}
+.work-text p{margin:0;color:#d8d6cf;line-break:strict}
+.work-text p:first-child{max-width:30em;font-size:24px;line-height:1.7;color:#f2f0ea}
+.work-text p+p{box-sizing:border-box;max-width:calc(640px + 25%);margin-top:26px;padding-left:25%;font-size:16px;line-height:2;text-align:justify;text-justify:inter-ideograph}
+.work-text p:last-child::after{content:"";display:inline-block;width:.5em;height:.5em;margin-left:.6em;background:currentColor}
+.video-slot{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:16/9;margin:0 0 10px;background:#f2f0ea}
+.video-play{width:0;height:0;border-style:solid;border-width:18px 0 18px 30px;border-color:transparent transparent transparent #1d1f1d}
+.video-label{position:absolute;left:22px;bottom:18px;font:700 16px/1 Doto,monospace;color:#1d1f1d}
+.work-next{display:flex;justify-content:space-between;gap:24px;margin:50px 0 0;padding-top:18px;border-top:1px solid #2c2c29}
+.work-next a{color:#f2f0ea;text-decoration:none;font-size:15px;line-height:1.5;max-width:46%}
+.work-next a:last-child{text-align:right;margin-left:auto}
+.work-next span{display:block;margin-bottom:4px;font-size:12px;color:#8b8a83}
+.work-next a:hover strong{text-decoration:underline;text-underline-offset:4px}
+.work-next strong{font-weight:500}
+.ms>.site-contact,.ms>.site-tail{grid-column:1/-1}
+.paper-contact{background:#fff;border-radius:18px}
+.site-contact{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:clamp(24px,4vw,64px);margin-top:64px;padding:38px clamp(28px,4vw,56px);color:#0d0f0f}
+.site-contact .mark{font:900 clamp(64px,6.6vw,92px)/.9 Doto,monospace;letter-spacing:-.02em;-webkit-text-stroke:1px currentColor;color:#0d0f0f;text-decoration:none}
+.site-contact h2{margin:0 0 12px;font:700 clamp(20px,2vw,26px)/1.2 Doto,"PingFang SC",sans-serif;color:#0d0f0f}
+.site-contact h2 span+span{margin-left:8px}
+.site-contact dl{margin:0;font-size:14px;line-height:1.7}
+.site-contact dl div{display:flex;gap:14px}
+.site-contact dt{min-width:58px;color:#25261f}
+.site-contact dd{margin:0}
+.site-contact a{color:inherit}
+.site-codes{display:flex;gap:18px;font-size:12px;text-align:center}
+.site-codes img{display:block;width:88px;height:88px;margin-bottom:6px;image-rendering:pixelated}
+.site-tail{display:flex;justify-content:flex-end;margin-top:14px;font-size:13px}
+.site-tail a{color:#8b8a83;text-decoration:none}
+html[data-look] .site-tail a{color:#5e5d57}
+@media(max-width:760px){.site-contact{grid-template-columns:1fr;justify-items:start}.ms{grid-template-columns:1fr;padding:24px 14px 28px}.ms-margin{position:static;display:flex;flex-wrap:wrap;gap:8px 22px;padding:0;margin-bottom:20px}.work-back{width:100%;margin-bottom:6px}.ms-facts{display:flex;flex-wrap:wrap;gap:8px 22px}.ms-facts div{margin:0}.ms-folio{display:none}.work-text p+p{padding-left:0}.work-text p:first-child{font-size:20px}}
+
+/* List pages: the wire is drawn by js/page-look.js from the cards' real positions. */
+main.page{position:relative}
+.rail-svg{position:absolute;left:0;top:0;z-index:0;overflow:visible;pointer-events:none}
+.rail-svg path{fill:none;stroke:var(--wire);stroke-width:3;stroke-linejoin:round}
+.rail-dot{position:absolute;z-index:3;width:20px;height:20px;margin:-10px 0 0 -10px;border-radius:50%;pointer-events:none;background:radial-gradient(circle,var(--page-wall) 0 4.2px,var(--ring) 4.8px);box-shadow:inset 1px 1px 0 rgba(255,255,255,.55),inset -1px -1px 0 rgba(0,0,0,.3),1px 2px 3px rgba(20,20,19,.3)}
+.page-top,.page-top~.grid,.site-contact{position:relative;z-index:1}
+.page-top~.grid{margin-top:50px;gap:44px 30px}
+
+/* Folder layers behind each image card: back cover, then a sheet of paper. */
+.grid .work-card{position:relative}
+.grid .work-card>a{position:relative;z-index:2}
+.grid .work-card::before{content:"";position:absolute;z-index:0;left:0;right:0;top:-19px;bottom:10px;border-radius:18px;background:var(--back,#2a2a27)}
+.grid .work-card::after{content:"";position:absolute;z-index:1;left:4.5%;right:4.5%;top:-12px;height:58%;border-radius:10px;background:#080808 var(--spec,none) left top/600px 100% repeat-x;box-shadow:0 1px 3px rgba(0,0,0,.35);transform:rotate(-.7deg);transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s ease,filter .35s ease}
+.grid .work-card:nth-child(even)::after{transform:rotate(.6deg)}
+@media(hover:hover){.grid .work-card:hover::after{transform:translateY(-22px) rotate(-1.6deg);filter:brightness(1.15);box-shadow:0 0 6px var(--glow,#fff)}.grid .work-card:nth-child(even):hover::after{transform:translateY(-22px) rotate(1.4deg)}}
+.work[hidden]::before,.work[hidden]::after{display:none}
+
+/* One pixel typeface for the whole site. The ZH wordmark keeps Doto as the logo. Re-subset when new characters appear. */
+@font-face{font-family:SitePixel;src:url('../assets/fonts/FusionPixel-site.woff2?v=20261114o') format('woff2');font-display:swap}
+html body,html body *:not(.logo-text):not(.etched-wordmark):not(.mark):not(.footer-wordmark):not(.foot-mark){font-family:SitePixel,monospace!important;-webkit-font-smoothing:none;font-synthesis:none}
+html body .work-text p,html body .ms-facts,html body .site-contact dl{letter-spacing:.01em}
+
+/* Commission pages: title and text side by side, then a plain two-up gallery. */
+.cm-head{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(24px,5vw,72px);align-items:start;margin-bottom:34px}
+.ms-commission .ms-title{font-size:clamp(30px,3.6vw,52px);line-height:1.2}
+.ms-commission .ms-meta{margin-bottom:0}
+.ms-commission .work-text{margin:0;padding:0;border:0}
+.ms-commission .work-text p:first-child{max-width:none}
+.ms-commission .work-text p:last-child::after{display:none}
+.ms-commission #images{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-items:start}
+.ms-commission #images figure{margin:0}
+.ms-commission .video-slot{grid-column:1/-1}
+.ms-commission #images .cm-intro{grid-column:1/-1;margin:24px 0 30px;padding:0;border:0;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(24px,5vw,72px)}.ms-commission #images .cm-intro>p,html[data-look] .ms-commission #images .cm-intro>p:first-child,.ms-commission #images .cm-intro>p+p{grid-column:2;margin:0 0 1em;padding-left:0;font-size:16px;line-height:2;max-width:none;color:inherit;text-align:justify;text-justify:inter-ideograph}.ms-commission #images .cm-intro>.work-en{grid-column:2}.ms-commission #images .cm-wide{grid-column:1/-1}.ms-commission #images .cm-wide img{aspect-ratio:16/9;object-fit:cover;object-position:50% 40%}@media(max-width:760px){.ms-commission #images .cm-intro{grid-template-columns:1fr}.ms-commission #images .cm-intro>p,.ms-commission #images .cm-intro>.work-en{grid-column:1}}
+.cm-spec{margin:22px 0 0;padding:0;border-top:1px solid rgba(20,20,19,.18)}.cm-spec>div{display:grid;grid-template-columns:5.5em minmax(0,1fr);gap:16px;padding:10px 0;border-bottom:1px solid rgba(20,20,19,.18)}.cm-spec dt{margin:0;font-size:13px;line-height:1.8;color:#7a7972;letter-spacing:.04em}.cm-spec dd{margin:0;font-size:16px;line-height:1.8;color:#1d1f1d}.lang-en .work-text>.cm-spec{display:none}
+@media(max-width:760px){.cm-head{grid-template-columns:1fr}.ms-commission #images{grid-template-columns:1fr}}
+
+/* Light version of the work pages. */
+html[data-look] .ms{color:#1d1f1d}
+html[data-look] .ms-margin,html[data-look] .ms-meta{color:#5e5d57}
+html[data-look] .work-back,html[data-look] .ms-title,html[data-look] .ms-zh,html[data-look] .work-next a{color:#141413}
+html[data-look] .work-text{border-color:#d0ccbf}
+html[data-look] .work-text p{color:#3d3d3a}
+html[data-look] .work-text p:first-child{color:#141413}
+html[data-look] .video-slot{background:#e7e3d8}
+html[data-look] .work-next{border-color:#d0ccbf}
+html[data-look] .work-next span,html[data-look] .ms figcaption.is-ai{color:#77756e}
+
+/* English statement follows the Chinese, in the same indented column. */
+.work-text .work-en{box-sizing:border-box;max-width:calc(640px + 25%);margin-top:34px;padding-left:25%}
+.work-text .work-en p,.work-text .work-en p:first-child{max-width:none;margin:0 0 14px;padding:0;font-size:16px;line-height:1.8;color:#a9a7a0;text-align:left}
+.work-text .work-en p:last-child{margin-bottom:0}
+html[data-look] .work-text .work-en p,html[data-look] .work-text .work-en p:first-child{color:#5e5d57}
+.ms-commission .work-text .work-en{padding-left:0;max-width:none}
+@media(max-width:760px){.work-text .work-en{padding-left:0}}
+
+/* Image viewer and video. */
+.lb-open-able{cursor:zoom-in}
+html.lb-open{overflow:hidden}
+.lb{position:fixed;inset:0;z-index:5000;display:flex;align-items:center;justify-content:center;background:rgba(5,5,5,.96)}
+.lb[hidden]{display:none}
+.lb>img{max-width:calc(100vw - 120px);max-height:calc(100vh - 110px);object-fit:contain}
+.lb-bar{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;gap:28px;height:64px;font-size:16px;color:#f2f0ea}
+.lb-bar a,.lb-bar button{background:none;border:0;padding:6px;font:inherit;color:#f2f0ea;cursor:pointer;text-decoration:underline;text-underline-offset:4px}
+.lb-nav{position:absolute;top:50%;width:52px;height:80px;margin-top:-56px;background:none;border:0;font-size:44px;color:#f2f0ea;cursor:pointer}
+.lb-prev{left:6px}.lb-next{right:6px}
+.video-slot.has-video{background:#000}
+.video-slot video{display:block;width:100%;height:100%;object-fit:contain;background:#000}
+.video-sound{position:absolute;right:16px;top:16px;padding:8px 14px;border:0;background:#f2f0ea;color:#141413;font-size:16px;cursor:pointer}
+.video-sound[hidden]{display:none}
+.linz-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px;background:#000}
+.ms figure .linz-grid img{height:auto;aspect-ratio:2000/1467;object-fit:cover}
+.linz-panels{position:relative;aspect-ratio:1672/941;background:#000}
+.ms figure .linz-panels img{position:absolute;object-fit:cover}
+.grid.no-icon a.sheet:hover .photo,.grid.no-icon a.sheet:focus-visible .photo{opacity:1}
+/* 11-11 ZH: no photo-to-icon swap on hover; the icon sits small in the folder's lower right. */
+.grid a.sheet .photo,.grid a.sheet:hover .photo,.grid a.sheet:focus-visible .photo{opacity:1!important}
+.grid .window .icon{inset:auto;right:16px;bottom:16px;left:auto;top:auto;width:40px;height:40px;opacity:.92!important;z-index:3}
+@media(max-width:650px){.grid .window .icon{right:12px;bottom:12px;width:32px;height:32px}}
+/* 11-11 ZH: icon in the lower right of artwork cards removed. */
+.grid .window .icon{display:none!important}
+/* ?cards=plain : preview without the spectrum sheet and the back folder layer. */
+.cards-plain .grid .work-card::before,.cards-plain .grid .work-card::after{display:none!important}
+/* plain cards: the raised strip of each folder shape shows the spectrum instead of the photo (11-11). */
+.cards-plain .work-card>a.photo-card,.cards-plain .home-card>a{position:relative}
+.cards-plain :is(.work-card,.home-card)>a:is(.step-a,.step-b,.step-c)::before{content:"";position:absolute;z-index:4;height:16px;pointer-events:none;background:#080808 var(--spec,none) left top/600px 100% repeat-x}
+.cards-plain :is(.work-card,.home-card)>a.step-a::before{left:0;width:70%;top:0}
+.cards-plain :is(.work-card,.home-card)>a.step-b::before{left:26%;right:0;top:0}
+.cards-plain :is(.work-card,.home-card)>a.step-c::before{left:24%;right:0;bottom:0}
+/* plain cards: no hover motion for now (11-11, ZH: "先去掉吧"). */
+/* 11-11: the spectrum strip on the raised tab removed too (ZH: "先把光谱条去掉吧"). */
+.cards-plain :is(.work-card,.home-card)>a:is(.step-a,.step-b,.step-c)::before{display:none!important}
+/* 11-11: hover = the card swings aside like a playing card and the layer underneath shows its spectrum light. */
+.cards-plain .grid .work-card.work-card::after{display:block!important;content:"";position:absolute;z-index:0;inset:0;height:auto;border-radius:18px;background:#080808 var(--spec,none) left top/600px 100% repeat-x;transform:none;filter:brightness(1.1);box-shadow:none;transition:box-shadow .5s ease}
+.cards-plain .grid .work-card.work-card>a{position:relative;z-index:2;transform-origin:10% 100%;transition:transform .55s cubic-bezier(.2,.8,.2,1)}
+@media(hover:hover){
+  .cards-plain .grid .work-card.work-card:hover>a{transform:translate(-6px,-4px) rotate(-3.5deg)}
+  .cards-plain .grid .work-card.work-card:hover::after{box-shadow:0 0 10px color-mix(in srgb,var(--glow,#fff) 55%,transparent)}
+}
+.cards-plain .grid .work-card.work-card:has(>a:focus-visible)>a{transform:translate(-6px,-4px) rotate(-3.5deg)}
+@media(prefers-reduced-motion:reduce){.cards-plain .grid .work-card.work-card>a{transition:none}}
+@supports (clip-path:shape(from 0 0,close)){
+  .cards-plain .grid .work-card.work-card:has(>a.step-a)::after{border-radius:0;clip-path:shape(from 18px 0,hline to calc(70% - 8px),arc to 70% 8px of 8px cw,arc to calc(70% + 8px) 16px of 8px ccw,hline to calc(100% - 18px),arc to 100% 34px of 18px cw,vline to calc(100% - 18px),arc to calc(100% - 18px) 100% of 18px cw,hline to 18px,arc to 0 calc(100% - 18px) of 18px cw,vline to 18px,arc to 18px 0 of 18px cw,close)}
+  .cards-plain .grid .work-card.work-card:has(>a.step-b)::after{border-radius:0;clip-path:shape(from calc(26% + 18px) 0,hline to calc(100% - 18px),arc to 100% 18px of 18px cw,vline to calc(100% - 18px),arc to calc(100% - 18px) 100% of 18px cw,hline to 18px,arc to 0 calc(100% - 18px) of 18px cw,vline to 34px,arc to 18px 16px of 18px cw,hline to calc(26% - 8px),arc to 26% 8px of 8px ccw,arc to calc(26% + 8px) 0 of 8px cw,close)}
+  .cards-plain .grid .work-card.work-card:has(>a.step-c)::after{border-radius:0;clip-path:shape(from 18px 0,hline to calc(100% - 18px),arc to 100% 18px of 18px cw,vline to calc(100% - 18px),arc to calc(100% - 18px) 100% of 18px cw,hline to calc(24% + 8px),arc to 24% calc(100% - 8px) of 8px cw,arc to calc(24% - 8px) calc(100% - 16px) of 8px ccw,hline to 18px,arc to 0 calc(100% - 34px) of 18px cw,vline to 18px,arc to 18px 0 of 18px cw,close)}
+}
+/* 11-11 v2: three swing variants, the layer underneath moves the other way and glows, saturated. */
+.cards-plain .grid .work-card.work-card::after{transition:transform .55s cubic-bezier(.2,.8,.2,1),filter .55s ease,box-shadow .55s ease}
+.cards-plain .grid .work-card.work-card:nth-child(3n+2)>a{transform-origin:90% 100%}
+.cards-plain .grid .work-card.work-card:nth-child(3n)>a{transform-origin:50% 100%}
+@media(hover:hover){
+  .cards-plain .grid .work-card.work-card:hover::after{filter:brightness(1.18) saturate(1.6);box-shadow:0 0 6px var(--glow,#fff),0 0 22px color-mix(in srgb,var(--glow,#fff) 55%,transparent)}
+  .cards-plain .grid .work-card.work-card:nth-child(3n+1):hover>a{transform:translate(-8px,-5px) rotate(-3.5deg)}
+  .cards-plain .grid .work-card.work-card:nth-child(3n+1):hover::after{transform:translate(7px,3px) rotate(1.6deg)}
+  .cards-plain .grid .work-card.work-card:nth-child(3n+2):hover>a{transform:translate(8px,-5px) rotate(3.5deg)}
+  .cards-plain .grid .work-card.work-card:nth-child(3n+2):hover::after{transform:translate(-7px,3px) rotate(-1.6deg)}
+  .cards-plain .grid .work-card.work-card:nth-child(3n):hover>a{transform:translateY(-12px) rotate(-1deg)}
+  .cards-plain .grid .work-card.work-card:nth-child(3n):hover::after{transform:translateY(6px) rotate(1.2deg) scale(.985)}
+}
+/* 11-14 待织的辞海：视频下简介两段左右错开 */
+.ms-commission #images .cm-intro{display:block}
+.ms-commission #images .cm-intro>p,html[data-look] .ms-commission #images .cm-intro>p:first-child{width:52%;margin:0 0 28px 18%}
+.ms-commission #images .cm-intro>p+p{margin-left:48%}
+.ms-commission #images .cm-intro>.work-en{width:52%;margin-left:18%}
+@media(max-width:760px){.ms-commission #images .cm-intro>p,html[data-look] .ms-commission #images .cm-intro>p:first-child,.ms-commission #images .cm-intro>p+p,.ms-commission #images .cm-intro>.work-en{width:auto;margin-left:0}}
+/* 11-14 量子荒岛：四宫格 */
+.ms-commission #images .cm-grid4{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.ms-commission #images .cm-grid4 img{aspect-ratio:16/9;object-fit:cover}

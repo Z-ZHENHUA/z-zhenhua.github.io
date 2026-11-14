@@ -1,0 +1,170 @@
+@font-face{font-family:Libre;src:url('../assets/fonts/LibreBaskerville-latin.woff2')}@font-face{font-family:Inter;src:url('../assets/fonts/Inter.woff2')}@font-face{font-family:Doto;src:url('../assets/fonts/Doto-variable-latin.woff2') format('woff2');font-style:normal;font-weight:100 900;font-display:swap}
+:root{--bg:#171714;--ink:#f1efe6;--muted:#b3b1a7;--line:#474740;--surface:#24241f;--surface2:#302f29;--accent:#8cb2df;--serif:Libre,'Songti SC','Noto Serif SC',serif;--sans:Inter,'PingFang SC','Microsoft YaHei',sans-serif;color-scheme:dark}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 var(--sans)}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit}img{display:block;max-width:100%}a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.skip{position:fixed;top:-100px;left:1rem;background:var(--ink);color:var(--bg);z-index:50;padding:.5em}.skip:focus{top:1rem}.site-header{position:sticky;top:0;z-index:20;height:84px;padding:0 clamp(24px,5.55vw,80px);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;background:transparent;isolation:isolate}.brand{justify-self:start;display:inline-flex;align-items:center;gap:8px}.brand-name{font:700 18px/1 var(--serif);letter-spacing:-.06em}.logo{width:42px;height:42px;object-fit:contain}.desktop-nav{display:flex;gap:6px}.header-right{justify-self:end}.pill,.filter{display:inline-flex;align-items:center;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 15px;font-size:12px;line-height:1.2;white-space:nowrap}.pill:hover,.filter:hover{border-color:var(--ink)}.pill.active,.filter.active{background:var(--ink);color:var(--bg);border-color:var(--ink)}.menu-toggle,.mobile-menu{display:none}.eyebrow,.number{display:block;font:700 11px/1.4 Doto,monospace;letter-spacing:.09em;color:var(--muted)}.hero{min-height:clamp(680px,calc(100svh - 84px),920px);position:relative;overflow:hidden;margin:0 clamp(24px,5.55vw,80px);display:grid;place-items:center}.hero-copy{position:relative;z-index:2;text-align:center;width:min(850px,70%);padding:4rem 0}.hero-copy h1,.page-intro h1,.detail-title h1{font-family:var(--serif);font-weight:400;letter-spacing:-.055em;line-height:1.17}.hero-copy h1{font-size:clamp(40px,5vw,75px);margin:26px 0 22px}.hero-copy h1 span{white-space:nowrap}.hero-copy p{font-size:clamp(14px,1.25vw,18px)}.hero-tiles{position:absolute;inset:0;pointer-events:none}.tile{position:absolute;aspect-ratio:1;overflow:hidden;background:var(--surface2)}.tile img{width:100%;height:100%;object-fit:cover}.graphic-tile{display:grid;place-items:center}.graphic{display:block;width:100%;height:100%;background:var(--ink);mask:var(--mask) center/contain no-repeat;-webkit-mask:var(--mask) center/contain no-repeat}.tile .graphic{width:83%;height:83%}.tile-a{width:11%;left:2%;top:10%}.tile-b{width:13%;right:3%;top:9%}.tile-c{width:8%;left:18%;top:30%}.tile-d{width:10%;right:18%;bottom:17%}.tile-e{width:13%;left:3%;bottom:12%}.tile-f{width:7%;right:2%;bottom:29%}.hero-down{position:absolute;bottom:24px;font-size:12px;color:var(--muted)}.hero-down span{margin-left:10px}.section{padding:100px clamp(24px,5.55vw,80px);border-top:1px solid var(--line)}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:2rem;margin-bottom:40px}.section-heading h2,.lab-band h2{font:400 clamp(35px,4vw,58px)/1.2 var(--serif);letter-spacing:-.04em;margin:14px 0 0}.text-link{font-size:13px;border-bottom:1px solid var(--line);padding:8px 0}.text-link span{margin-left:20px}.text-link:hover{color:var(--accent)}.works-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:50px 14px}.card-link{display:block}.card-art{aspect-ratio:1;position:relative;overflow:hidden;background:var(--surface2)}.card-art img,.card-graphic{position:absolute;inset:0;width:100%;height:100%}.card-art img{object-fit:cover;opacity:0;transition:opacity .45s,transform .6s}.card-graphic{display:grid;place-items:center;transition:opacity .4s}.card-graphic .graphic{width:78%;height:78%}.card-link:hover .card-art img,.card-link:focus-visible .card-art img{opacity:1;transform:scale(1.025)}.card-link:hover .card-graphic,.card-link:focus-visible .card-graphic{opacity:0}.card-meta{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:15px}.tag{font-size:10px;border:1px solid var(--line);padding:3px 8px;border-radius:4px;line-height:1.3}.work-card h3{font-size:15px;line-height:1.4;margin:11px 0 4px;font-weight:600}.card-more{font-size:11px;color:var(--muted)}.intro-section,.lab-band{background:var(--surface)}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,8vw,120px)}.intro-grid article{border-top:1px solid var(--line);padding-top:23px}.intro-grid h3{font:400 clamp(25px,2.3vw,34px)/1.3 var(--serif);margin:28px 0 25px}.intro-grid p{font:400 clamp(16px,1.3vw,19px)/1.9 var(--serif);max-width:620px;margin:0}.commission-list{border-top:1px solid var(--line)}.commission-row{display:grid;grid-template-columns:1fr 3fr auto;gap:20px;border-bottom:1px solid var(--line);padding:27px 0}.commission-row h3{font-size:19px;margin:0 0 4px}.commission-row p{color:var(--muted);font-size:13px;margin:0}.row-arrow{font-size:20px}.commission-row:hover h3{color:var(--accent)}.lab-band{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:4vw}.lab-band p{color:var(--muted);margin:24px 0}.lab-symbol{justify-self:center;width:min(300px,70%);aspect-ratio:1}.footer{padding:75px clamp(24px,5.55vw,80px) 25px}.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;min-height:200px}.footer-wordmark{font-size:clamp(65px,9vw,125px);font-weight:700;letter-spacing:-.1em;line-height:1}.footer-wordmark span{font-size:11px;letter-spacing:0;vertical-align:top;margin-left:8px}.footer-nav{display:flex;flex-direction:column;gap:9px}.footer-contact p{color:var(--muted);font-size:13px}.footer-bottom{border-top:1px solid var(--line);padding-top:20px;display:flex;justify-content:space-between;align-items:center;gap:20px;color:var(--muted);font-size:11px}.page-intro{min-height:420px;padding:90px clamp(24px,5.55vw,80px) 80px;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:end}.page-intro h1{font-size:clamp(58px,8vw,116px);margin:20px 0}.page-intro p{font-size:16px;color:var(--muted)}.page-symbol{justify-self:end;width:min(255px,50%);aspect-ratio:1;background:var(--surface);display:grid;place-items:center}.page-symbol .graphic,.detail-symbol .graphic{width:85%;height:85%}.collection{padding-top:30px}.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:45px}.filter{cursor:pointer}.filter span{margin-left:5px}.filter-empty{padding:40px 0;color:var(--muted)}.lab-page{min-height:70vh;align-items:center}.about-intro h1 span{font-size:.7em}.about-content{padding-top:0}.about-row{border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1.5fr;gap:6vw;padding:60px 0}.about-row h2{font:400 clamp(25px,2.7vw,39px)/1.3 var(--serif);margin:20px 0}.about-row p{font:400 clamp(16px,1.4vw,20px)/1.95 var(--serif);margin:0 0 1.5em}.detail-hero{padding:50px clamp(24px,5.55vw,80px) 70px;min-height:465px;display:grid;grid-template-columns:1fr minmax(220px,30%);gap:50px;align-items:end}.detail-title .eyebrow{margin-top:65px}.back-link{font-size:12px;color:var(--muted)}.detail-title h1{font-size:clamp(43px,5.4vw,80px);margin:20px 0;max-width:900px;overflow-wrap:anywhere}.detail-title p{color:var(--muted);font-size:13px}.detail-symbol{width:min(100%,340px);aspect-ratio:1;justify-self:end;background:var(--surface);display:grid;place-items:center}.detail-layout{border-top:1px solid var(--line);padding:60px clamp(24px,5.55vw,80px) 110px;display:grid;grid-template-columns:minmax(130px,1fr) minmax(0,3fr) minmax(150px,1fr);gap:clamp(25px,4vw,65px);align-items:start}.detail-toc{position:sticky;top:110px;display:flex;flex-direction:column;gap:13px;font-size:12px}.detail-toc .eyebrow,.detail-meta .eyebrow{margin-bottom:15px}.detail-toc a:hover{color:var(--accent)}.detail-toc .number{display:inline;margin-right:8px}.detail-meta{font-size:12px}.detail-meta dl{margin:0}.detail-meta dl div{border-top:1px solid var(--line);padding:12px 0}.detail-meta dt{color:var(--muted);margin-bottom:4px}.detail-meta dd{margin:0;overflow-wrap:anywhere}.detail-block{scroll-margin-top:110px;margin-bottom:80px}.detail-block h2{font:400 clamp(30px,3vw,43px)/1.2 var(--serif);margin:15px 0 30px}.detail-block p{font:400 clamp(16px,1.35vw,19px)/1.95 var(--serif)}.detail-block figure{margin:0 0 30px}.detail-block figure img{width:100%;height:auto;background:var(--surface)}figcaption{font-size:10px;color:var(--muted);margin-top:8px}.info-list{border-top:1px solid var(--line)}.info-list div{display:grid;grid-template-columns:120px 1fr;border-bottom:1px solid var(--line);padding:13px 0;font-size:13px}.info-list dt{color:var(--muted)}.info-list dd{margin:0}.detail-block .missing{font:12px/1.8 var(--sans);color:var(--muted);margin-top:30px}.missing span{color:var(--ink)}.detail-next{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 clamp(24px,5.55vw,80px)}.detail-next a{padding:30px 0}.detail-next a:last-child{text-align:right}.detail-next strong{display:block;font:400 22px/1.4 var(--serif);margin-top:12px}.detail-next a:hover strong{color:var(--accent)}[hidden]{display:none!important}
+@media(max-width:900px){.works-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:35px 14px}.detail-layout{grid-template-columns:120px minmax(0,1fr);gap:30px}.detail-meta{display:none}.hero-copy{width:80%}.tile-c,.tile-f{display:none}.tile-a,.tile-b,.tile-e{width:15%}.tile-d{width:14%;right:4%}.footer-top{grid-template-columns:1.5fr 1fr 1fr}}
+@media(max-width:650px){.site-header{height:70px;grid-template-columns:1fr auto;padding:0 20px}.logo{width:38px;height:38px}.desktop-nav,.about-link{display:none}.menu-toggle{display:flex;flex-direction:column;justify-content:center;gap:5px;width:39px;height:39px;border:1px solid var(--line);border-radius:50%;background:var(--surface);cursor:pointer;padding:11px}.menu-toggle span{height:1px;width:100%;background:var(--ink)}.mobile-menu:not([hidden]){display:flex;position:absolute;top:70px;left:0;right:0;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 20px 25px;flex-direction:column}.mobile-menu a{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding:15px 0}.hero{margin:0 20px;min-height:calc(100svh - 70px)}.hero-copy{width:100%;padding:0}.hero-copy h1{font-size:clamp(34px,8vw,48px);line-height:1.3;margin:18px 0}.hero-copy p{font-size:13px;max-width:290px;margin:auto;line-height:1.8}.tile-a{width:24%;left:0;top:5%}.tile-b{width:24%;right:0;top:7%}.tile-c{display:block;width:15%;left:37%;top:15%}.tile-d{width:23%;right:0;bottom:10%}.tile-e{width:23%;left:0;bottom:11%}.hero-down{bottom:10px}.section{padding:68px 20px}.section-heading{align-items:start;margin-bottom:28px}.section-heading h2,.lab-band h2{font-size:34px}.text-link{font-size:11px;text-align:right;max-width:145px}.text-link span{margin-left:3px}.works-grid{gap:30px 10px}.card-art{display:grid;grid-template-columns:1fr 1fr;aspect-ratio:1.4}.card-graphic,.card-art img{position:static;width:100%;height:100%;opacity:1!important;transform:none!important}.card-art img{object-fit:cover;min-width:0}.card-graphic .graphic{width:90%;height:90%}.card-meta{align-items:start;flex-direction:column;gap:5px;margin-top:10px}.tag{font-size:9px}.work-card h3{font-size:14px}.intro-grid{grid-template-columns:1fr;gap:42px}.intro-grid h3{margin:20px 0}.commission-row{grid-template-columns:65px 1fr auto;gap:10px}.commission-row h3{font-size:16px}.lab-band{grid-template-columns:1fr 1fr}.lab-symbol{width:100%}.footer{padding:60px 20px 25px}.footer-top{grid-template-columns:1fr 1fr;min-height:0;padding-bottom:50px}.footer-wordmark{grid-column:1/-1;margin-bottom:20px}.footer-bottom{flex-wrap:wrap}.page-intro{min-height:330px;padding:70px 20px 55px;grid-template-columns:1fr 90px;align-items:end}.page-intro h1{font-size:clamp(47px,11vw,70px);overflow-wrap:anywhere}.page-intro p{font-size:13px}.page-symbol{width:100%}.collection{padding-top:24px}.filters{margin-bottom:30px}.filter{font-size:11px;padding:7px 11px}.lab-page{min-height:65svh}.lab-page h1{font-size:clamp(37px,9vw,56px)}.about-content{padding-top:0}.about-row{grid-template-columns:1fr;gap:5px;padding:40px 0}.about-row h2{margin:15px 0}.detail-hero{min-height:0;padding:40px 20px 45px;grid-template-columns:1fr 100px;gap:15px}.detail-title .eyebrow{margin-top:45px}.detail-title h1{font-size:clamp(35px,8vw,52px)}.detail-symbol{width:100%;align-self:end}.detail-layout{padding:35px 20px 50px;display:block}.detail-toc{position:static;display:flex;flex-direction:row;flex-wrap:wrap;gap:10px 20px;margin-bottom:55px}.detail-toc .eyebrow{width:100%;margin:0}.detail-block{margin-bottom:55px;scroll-margin-top:90px}.detail-block h2{font-size:30px}.info-list div{grid-template-columns:75px 1fr}.detail-next{margin:0 20px}.detail-next strong{font-size:17px}.detail-next a{padding:25px 0}.detail-next a:first-child{padding-right:10px}.detail-next a:last-child{padding-left:10px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+
+/* 避免锚点标题被固定标头遮住。 */
+#selected{scroll-margin-top:84px}
+@media(max-width:650px){#selected{scroll-margin-top:70px}.brand-name{font-size:16px}}
+
+/* Navigation uses the Doto weight from the steel version. */
+.site-header .pill,.mobile-menu a{font-family:Doto,monospace;font-weight:600}
+.site-header .pill{font-size:clamp(12px,1.05vw,15px)}
+
+/* The fade extends over content only after scrolling, leaving the initial rivets clear. */
+.site-header::before{content:"";position:absolute;z-index:-1;inset:0 0 auto;height:calc(100% + var(--header-fade, 0px));pointer-events:none;background:linear-gradient(to bottom,rgba(var(--header-rgb,23,23,20),1) 0%,rgba(var(--header-rgb,23,23,20),.98) 30%,rgba(var(--header-rgb,23,23,20),.88) 52%,rgba(var(--header-rgb,23,23,20),.64) 68%,rgba(var(--header-rgb,23,23,20),.32) 83%,rgba(var(--header-rgb,23,23,20),0) 100%)}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+/* 11-08: bold ZH wordmark replaces the graphic logo for now. */
+.logo-text{display:block;font:900 30px/1 Doto,monospace;letter-spacing:-.02em;color:#f4f0e6;-webkit-text-stroke:.6px currentColor}
+
+.enter-four{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0}.enter-four img{display:block}
+.enter-acts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}.enter-acts img{display:block}
+.null-pair{display:flex;gap:6px;align-items:stretch}.null-pair span{display:block;min-width:0}.null-pair img{display:block;width:100%;height:auto}
+.redo-pages{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.redo-pages img{display:block}
+.linz-row+.linz-row{margin-top:6px}
+.zj-mosaic{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:2px}.detail-block figure .zj-mosaic img{display:block;width:100%;height:100%;aspect-ratio:3/2;object-fit:cover}
+/* 11-11 ZH's new logo (braces + Z + H), drawn in the element's own text colour via a mask,
+   so the dark / light header and the etched contact panel keep their colours. Text stays for screen readers. */
+.logo-text,.etched-wordmark,a.mark,.foot-mark{display:inline-block!important;font-size:0!important;line-height:0!important;color:inherit;-webkit-text-stroke:0!important;text-shadow:none!important;background:currentColor;-webkit-mask:url(../assets/logo-zh-2026-clean.png) center/contain no-repeat;mask:url(../assets/logo-zh-2026-clean.png) center/contain no-repeat;aspect-ratio:1525/1049;vertical-align:middle}
+.logo-text{height:40px;width:auto}
+.etched-wordmark{height:clamp(60px,6vw,86px);width:auto}
+a.mark{height:44px;width:auto}
+.foot-mark{height:32px;width:auto}
+/* 11-11 中文版：作品内页英文段落先隐藏（留给英文版）；深浅开关换成中 / EN 语言开关，英文版做好前 EN 不可点 */
+.work-text .work-en{display:none!important}
+.site-header .lang-toggle{display:inline-flex;align-items:center;gap:2px;padding:3px!important}
+.lang-toggle button{font:inherit;font-family:Doto,FusionPixel,sans-serif;font-weight:700;color:inherit;background:none;border:0;border-radius:999px;padding:2px 10px;cursor:pointer;line-height:1.2}
+.lang-toggle button[aria-pressed="true"]{color:inherit;background:rgba(255,255,255,.16)}
+.lang-toggle button:disabled{opacity:.45;cursor:default}
+html[data-look] .lang-toggle button[aria-pressed="true"]{background:#141413;color:#f8f7f1}
+/* 11-11 English version (html.lang-en, set by js/i18n.js): headings show English only, work pages show the English text; contact sections unchanged */
+.lang-en :is(h1,h2) span[lang="zh-CN"]:not(:is(.site-contact,.contact,.page-plate) *){display:none}
+.lang-en .ms-zh{display:none}
+.lang-en .work-text>p{display:none}
+.lang-en .work-text .work-en{display:block!important}
+/* 11-11 联系方式改版（ZH）：不放 logo；Instagram 写账号（先用 X 占位）不放二维码，只留小红书二维码。
+   版式：左边标题 + 三项横排（小标签在上、内容在下），右边小红书二维码，底边对齐。首页和内页同一套。 */
+html body .contact-inner,html body .site-contact{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:clamp(24px,4vw,64px)}
+html body .contact-information,html body .site-contact>div:not(.site-codes){grid-column:1;min-width:0}
+html body .contact-codes,html body .site-codes{grid-column:2;grid-row:1;justify-self:end}
+html body :is(.contact-details,.site-contact dl){display:grid;grid-template-columns:repeat(3,max-content);column-gap:clamp(28px,4.5vw,72px);row-gap:14px;margin:0}
+html body :is(.contact-details,.site-contact dl)>div{display:grid!important;grid-template-columns:none!important;gap:4px;margin:0}
+html body :is(.contact-details,.site-contact dl) dt{min-width:0;font-size:11px;letter-spacing:.06em;opacity:.62}
+html body :is(.contact-details,.site-contact dl) dd{margin:0;font-size:15px}
+@media(max-width:760px){
+  html body .contact-inner,html body .site-contact{grid-template-columns:1fr;align-items:start}
+  html body .contact-codes,html body .site-codes{grid-column:1;grid-row:auto;justify-self:start}
+  html body :is(.contact-details,.site-contact dl){grid-template-columns:1fr}
+}
+/* 11-11 ZH: RedNote also as an account (no QR codes left); four items in one row */
+html body :is(.contact-details,.site-contact dl){grid-template-columns:repeat(4,max-content)}
+html body .contact-inner,html body .site-contact{grid-template-columns:minmax(0,1fr)}
+@media(max-width:760px){html body :is(.contact-details,.site-contact dl){grid-template-columns:1fr 1fr}}
+html body :is(.contact-details,.site-contact dl){grid-template-columns:repeat(5,max-content)}
+@media(max-width:760px){html body :is(.contact-details,.site-contact dl){grid-template-columns:1fr 1fr}}
+/* 11-11 标头重排（ZH 嫌换 logo 后不舒服）：logo 缩到和按钮同一视觉高度；About 和其他按钮同尺寸；
+   语言开关不用黑底，只用字的深浅表示当前语言，标头里只留「当前页」一个黑块。 */
+html body .site-header .logo-text{height:28px}
+html body .site-header .about-link{font-size:15px;line-height:18px;padding:5px 13px;height:auto}
+html body .site-header .header-right{gap:10px;align-items:center}
+html body .site-header .lang-toggle{background:transparent!important;border-color:transparent!important;padding:0!important;gap:0}
+html body .lang-toggle button{padding:5px 6px;opacity:.38;background:none!important;color:inherit!important}
+html body .lang-toggle button[aria-pressed="true"]{opacity:1;background:none!important}
+html body .lang-toggle button:disabled{opacity:.38}
+html body .lang-toggle button+button::before{content:"/";margin-right:6px;opacity:.6}
+/* 11-11 ZH: no fade / blur band behind the header — every control has its own opaque base. */
+html body .site-header::before{display:none!important}
+html body .site-header{background:transparent!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+/* the language switch gets its own opaque pill again (still no black fill) */
+html[data-look] body .site-header .lang-toggle{background:#f1f1f2!important;border-color:#d4d5d7!important;padding:0 6px!important}
+html:not([data-look]) body .site-header .lang-toggle{background:#262626!important;border-color:#525252!important;padding:0 6px!important}
+/* without the band, the logo and the black current-page pill need their own edge over dark pictures */
+html body .site-header .brand{display:inline-flex;align-items:center;justify-self:start;padding:3px 12px;border-radius:999px;border:1px solid #d4d5d7;background:#f1f1f2;color:#141413;line-height:0}
+html:not([data-look]) body .site-header .brand{background:#262626;border-color:#525252;color:#f2f2f2}
+html body .site-header .logo-text{height:22px}
+html[data-look] body .site-header .pill[aria-current=page]{box-shadow:0 0 0 1px #d4d5d7}
+/* 11-11 ZH: the logo pill looked abrupt — the logo is bare again (28px); a thin light halo keeps it legible over dark pictures. */
+html body .site-header .brand,html:not([data-look]) body .site-header .brand{padding:0;border:0;background:none;border-radius:0}
+html body .site-header .logo-text{height:28px}
+html[data-look] body .site-header .logo-text{filter:drop-shadow(0 0 1px #f1f1f2) drop-shadow(0 0 1px #f1f1f2)}
+/* 11-11 ZH: the opaque transition is back, but dark instead of light (light looked washed out at the top).
+   It fades in as the page scrolls; the ramp is eased with many stops plus a faint grain so no bands show. */
+html body .site-header::before{display:block!important;content:"";position:absolute;inset:0 0 auto;z-index:-1;pointer-events:none;height:calc(100% + 56px);
+  opacity:var(--header-o,0);-webkit-mask:linear-gradient(#000 62%,transparent);mask:linear-gradient(#000 62%,transparent);-webkit-backdrop-filter:none;backdrop-filter:none;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .025 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
+    linear-gradient(to bottom,rgba(227,228,229,.86) 0%,rgba(227,228,229,.84) 18%,rgba(227,228,229,.78) 30%,rgba(227,228,229,.69) 40%,rgba(227,228,229,.58) 49%,rgba(227,228,229,.46) 57%,rgba(227,228,229,.35) 64%,rgba(227,228,229,.25) 71%,rgba(227,228,229,.17) 77%,rgba(227,228,229,.10) 83%,rgba(227,228,229,.05) 89%,rgba(227,228,229,.02) 95%,rgba(227,228,229,0) 100%)!important}
+/* logo: black on the bare wall, turns light as the dark band comes in */
+html[data-look] body .site-header .logo-text{filter:none;color:color-mix(in srgb,#f1f1f2 calc(var(--header-o,0) * 100%),#141413)}
+html[data-look] body .site-header .pill[aria-current=page]{box-shadow:0 0 0 1px #d4d5d7}
+
+/* 11-11 ZH: dark felt oppressive — the same smooth transition in the wall's light grey; logo stays black. */
+html[data-look] body .site-header .logo-text{color:#141413}
+html:not([data-look]) body .site-header::before{filter:brightness(.05)}
+/* 11-11 试：标头里只留 logo 一块黑。当前页按钮不再黑底，改成浅底 + 深色细框 + 字加深，表示「在这一页」。 */
+html[data-look] body .site-header .pill[aria-current=page]{background:#f1f1f2!important;border-color:#141413!important;color:#141413!important;box-shadow:none!important}
+html[data-look] body .site-header .pill:not([aria-current=page]){color:#5c5d60}
+html[data-look] body .site-header .about-link{color:#5c5d60}
+/* 11-11 标头重排（试）：logo 后面直接接四个页面（Artworks / AI Creative Lab / Commissions / About），语言开关单独在最右。
+   当前页用灰色填充（不是黑），logo 仍是标头里唯一的黑。 */
+@media(min-width:761px){
+  html body .site-header{display:flex!important;align-items:center;justify-content:flex-start}
+  html body .site-header .brand{margin-right:clamp(20px,2.4vw,36px)}
+  html body .site-header .desktop-nav{display:flex;gap:8px;justify-self:auto;margin:0}
+  html body .site-header .header-right{margin-left:auto}
+}
+html[data-look] body .site-header .pill[aria-current=page]{background:#c9cacd!important;border-color:#c9cacd!important;color:#141413!important;box-shadow:none!important}
+html[data-look] body .site-header .nav-about:not([aria-current=page]){color:#5c5d60}
+/* 11-11 ZH: selected filter buttons use the same grey fill as the current-page button */
+html[data-look] body .filter.active,html[data-look] body .filter.active:hover{background:#c9cacd!important;border-color:#c9cacd!important;color:#141413!important}
+/* 11-11 ZH: the page could be dragged sideways — the Art Work carousel parks the next card off to the right
+   (hidden by clip-path, but it still widened the page). Clip sideways overflow; clip keeps the sticky header working. */
+html,body{overflow-x:clip}
+/* 11-11: header logo back to the solid black version (the 'black square' request was for the browser-tab icon). */
+/* 11-11 ZH: tile and white versions tried and dropped — header logo stays the solid black mark (white Z H). */
+/* 11-11 ZH: a solid grey header bar (in the spirit of claude.com's quiet grey header) instead of the fade:
+   always there, full header height, a hairline at the bottom. */
+html body .site-header::before{display:block!important;height:100%!important;opacity:1!important;-webkit-mask:none!important;mask:none!important;background:#ededeb!important;border-bottom:1px solid #d6d6d3}
+html:not([data-look]) body .site-header::before{background:#161616!important;border-bottom-color:#2a2a2a;filter:none}
+/* 11-11 ZH: header bar in the deep warm grey of the Claude app (not the light site grey).
+   On it the logo turns light and the buttons take matching dark-grey pills. */
+html body .site-header::before{background:#262624!important;border-bottom:1px solid #3a3a37!important}
+html body .site-header .logo-text{color:#f0efea!important}
+html body .site-header .pill:not(.lang-toggle){background:#30302e!important;border-color:#45453f!important;color:#c9c7bf!important;box-shadow:none!important}
+html body .site-header .pill[aria-current=page]{background:#4a4944!important;border-color:#5a5952!important;color:#f5f4ef!important}
+html body .site-header .pill:not(.lang-toggle):hover{color:#f5f4ef!important}
+html body .site-header .lang-toggle{background:#30302e!important;border-color:#45453f!important;color:#f0efea}
+html body .site-header .menu-toggle span{background:#f0efea}
+html[data-look] body .site-header .lang-toggle,html:not([data-look]) body .site-header .lang-toggle{background:#30302e!important;border-color:#45453f!important;color:#f0efea!important}
+html[data-look] body .site-header .pill[aria-current=page]{background:#4a4944!important;border-color:#5a5952!important;color:#f5f4ef!important;box-shadow:none!important}
+/* 11-11 ZH: the bar floats — a touch lighter, lined up with the steel board's left/right edges (so the wall shows
+   the same on every side, no thin white strips), small radius, a hint of thickness, and a fine seam above the board. */
+html body .site-header{padding:8px 46px 0!important;height:52px;box-sizing:border-box}
+html body .site-header::before{top:8px!important;left:30px!important;right:30px!important;bottom:0!important;height:auto!important;
+  background:#2e2e2c!important;border:0!important;border-radius:10px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 1px 0 #1a1a19,0 2px 0 #20201f,0 6px 14px rgba(20,20,19,.16)!important}
+html body .steel-scene{padding-top:8px!important}
+html body .site-header .pill:not(.lang-toggle){background:#383835!important;border-color:#4b4b45!important}
+@media(max-width:760px){
+  html body .site-header{padding:6px 22px 0!important}
+  html body .site-header::before{top:6px!important;left:10px!important;right:10px!important;border-radius:8px}
+}
+/* 11-11 ZH: the bar runs to the page edges again (left, right and top); it keeps the slight thickness and the seam above the board. */
+html body .site-header{padding:0 30px!important;height:52px}
+html body .site-header::before{top:0!important;left:0!important;right:0!important;bottom:0!important;border-radius:0!important}
+@media(max-width:760px){html body .site-header{padding:0 16px!important}html body .site-header::before{top:0!important;left:0!important;right:0!important;border-radius:0!important}}
+/* 11-11 ZH: back to the floating bar, sitting a little higher (4px from the top instead of 8). */
+html body .site-header{padding:4px 46px 0!important;height:52px}
+html body .site-header::before{top:4px!important;left:30px!important;right:30px!important;bottom:0!important;border-radius:10px!important}
+@media(max-width:760px){html body .site-header{padding:4px 22px 0!important}html body .site-header::before{top:4px!important;left:10px!important;right:10px!important;border-radius:8px!important}}
+/* 11-11 ZH: full width again, flush with the top, so it reads as a cover over the page;
+   top corners square, bottom corners rounded; keeps the thickness and the seam above the board. */
+html body .site-header{padding:0 30px!important;height:52px}
+html body .site-header::before{top:0!important;left:0!important;right:0!important;bottom:0!important;border-radius:0 0 12px 12px!important}
+@media(max-width:760px){html body .site-header{padding:0 16px!important}html body .site-header::before{top:0!important;left:0!important;right:0!important;border-radius:0 0 10px 10px!important}}
+
+/* 11-14 联系方式：微信、小红书放二维码，Instagram / Mana 是链接 */
+html body :is(.site-codes,.contact-codes){display:flex;gap:18px;align-items:flex-start}html body :is(.site-codes,.contact-codes) figure{margin:0;text-align:center}html body :is(.site-codes,.contact-codes) img{display:block;width:96px;height:96px;margin:0 0 6px;background:#fff;border-radius:4px;padding:4px;box-sizing:border-box;image-rendering:auto}html body :is(.site-codes,.contact-codes) figcaption{font-size:12px;letter-spacing:.04em}html body :is(.site-codes,.contact-codes) a{color:inherit;text-decoration:none}html body :is(.site-contact,.contact) dd a[target=_blank]{text-decoration:underline;text-underline-offset:3px}
+html body :is(.site-codes,.contact-codes) figcaption{color:#2e2e2c}
+html body :is(.site-codes,.contact-codes) img{background:transparent;padding:0;border-radius:0;width:92px;height:92px;mix-blend-mode:multiply}

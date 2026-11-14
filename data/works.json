@@ -1,0 +1,1105 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-07",
+  "works": [
+    {
+      "slug": "zhangjiang",
+      "category": "影像 · Mapping",
+      "title": {
+        "zh": "当技术拥有回声，它会生成怎样的我们？",
+        "en": "When Technology Echoes, What Version of Ourselves Will It Give Birth To?"
+      },
+      "year": 2026,
+      "type": "AIGC 幕墙影像",
+      "location": "上海张江科学之门 · 张江城市灯塔 AI 艺术展",
+      "summary": "科学之门双塔上的一张神经网络——人与 AI 在彼此的回声里，相互修正。",
+      "paragraphs": [
+        "人类创造了 AI，并在日常中不断使用它；而当 AI 的回应愈发精准，它也开始反过来塑造人的行为方式。作品由此发问：当技术拥有回声，它会生成怎样的我们？",
+        "作品以神经网络为隐喻。在神经网络中，没有任何一个节点掌握答案，节点之间只是彼此传递信号，并依据回传的结果不断修正自身。人与 AI 之间同样构成这样一张网络——双方在彼此的回应中相互修正。作品将这两张网络同构，转译为在科学之门双塔幕墙上展开的影像。",
+        "作品分为“符码”“联结”“回声”三个章节。它们并非一一对应的图解，更像一首乐曲的三个乐章：从零星的信号，到密集的往返，再到逐渐回落的回声，让人与 AI 之间不可见的关系获得可见的形态。",
+        "创作中，作品没有预设最终画面，而是让 AI 理解科学之门这一载体与作品的观念，再与它共同编写程序、反复预演。作品因此不再是一段完成的影片，而是一套为科学之门建立、能够持续生成与演化的视觉系统。"
+      ],
+      "cover": "assets/works/zhangjiang/cover.webp",
+      "images": [
+        {
+          "src": "assets/works/zhangjiang/cover-title.webp",
+          "source": "艺术作品/当技术拥有回声/0018_50.png，叠加张江海报.png 的中英文标题",
+          "kind": "首图",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "src": "assets/works/zhangjiang/p4a.webp",
+          "source": "艺术作品/当技术拥有回声/多图竖向排版4.jpg",
+          "kind": "现场",
+          "width": 1752,
+          "height": 1169,
+          "layout": "mosaic",
+          "area": "1/1/3/5"
+        },
+        {
+          "src": "assets/works/zhangjiang/p1a.webp",
+          "source": "艺术作品/当技术拥有回声/多图竖向排版1.jpg",
+          "kind": "现场",
+          "width": 1752,
+          "height": 1169,
+          "layout": "mosaic",
+          "area": "1/5/2/7"
+        },
+        {
+          "src": "assets/works/zhangjiang/p3b.webp",
+          "source": "艺术作品/当技术拥有回声/多图竖向排版3.jpg",
+          "kind": "现场",
+          "width": 1752,
+          "height": 1169,
+          "layout": "mosaic",
+          "area": "2/5/3/7"
+        },
+        {
+          "src": "assets/works/zhangjiang/p2a.webp",
+          "source": "艺术作品/当技术拥有回声/多图竖向排版2.jpg",
+          "kind": "现场",
+          "width": 1752,
+          "height": 1169,
+          "layout": "mosaic",
+          "area": "3/1/4/3"
+        },
+        {
+          "src": "assets/works/zhangjiang/p4b.webp",
+          "source": "艺术作品/当技术拥有回声/多图竖向排版4.jpg",
+          "kind": "现场",
+          "width": 1752,
+          "height": 1169,
+          "layout": "mosaic",
+          "area": "4/1/5/3"
+        },
+        {
+          "src": "assets/works/zhangjiang/p3a.webp",
+          "source": "艺术作品/当技术拥有回声/多图竖向排版3.jpg",
+          "kind": "现场",
+          "width": 1752,
+          "height": 1169,
+          "layout": "mosaic",
+          "area": "3/3/5/7"
+        },
+        {
+          "src": "assets/works/zhangjiang/p1b.webp",
+          "source": "艺术作品/当技术拥有回声/多图竖向排版1.jpg",
+          "kind": "现场",
+          "width": 1752,
+          "height": 1169,
+          "layout": "mosaic",
+          "area": "5/1/6/4"
+        },
+        {
+          "src": "assets/works/zhangjiang/p2b.webp",
+          "source": "艺术作品/当技术拥有回声/多图竖向排版2.jpg",
+          "kind": "现场",
+          "width": 1752,
+          "height": 1169,
+          "layout": "mosaic",
+          "area": "5/4/6/7"
+        }
+      ],
+      "sources": [
+        "12FPS·Portfolio_20261031.pdf 第 15–17 页"
+      ],
+      "missing": [
+        "吴振华具体分工与完整合作者待补"
+      ],
+      "notes": [],
+      "english": [
+        "A neural network across the twin towers of the Gate of Science: humans and AI correcting each other in each other's echoes.",
+        "Humans created AI and use it every day; yet as its responses grow ever more precise, AI has begun to reshape human behaviour in return. The work asks: when technology echoes, what version of ourselves will it give birth to?",
+        "The work takes the neural network as its metaphor. In a neural network, no single node holds the answer; nodes simply pass signals to one another and correct themselves according to what comes back. Humans and AI form a similar network, each correcting the other through mutual response. The work maps these two networks onto each other and translates them into moving images that unfold across the twin-tower façade of the Gate of Science.",
+        "It is structured in three chapters: Glyph, Link and Echo. Rather than literal illustrations, they behave like three movements of a piece of music, from scattered signals, to dense exchange, to a slowly receding echo, giving visible form to the invisible relationship between humans and AI.",
+        "No final image was fixed in advance. Instead, AI was asked to understand the Gate of Science as a medium and the idea behind the work, and the program was then written and rehearsed together with it. The result is not a finished film but a visual system built for the Gate of Science, one that keeps generating and evolving."
+      ]
+    },
+    {
+      "slug": "linz",
+      "category": "游戏 · 交互",
+      "title": {
+        "zh": "你的冗余正在结算……",
+        "en": "Calculating Your Redundancy..."
+      },
+      "year": 2026,
+      "type": "AI 交互游戏装置",
+      "location": "2026 林茨电子艺术节（奥地利林茨）",
+      "summary": "一场由 AI 主导的驾驶测试：系统不断干扰，你不断修正——你们共同造成的偏差，最后都结算成你的冗余。",
+      "paragraphs": [
+        "作品以冗余值的测定方法构建了一套测试游戏：其核心是一个基于能效逻辑训练的 AI 模型。它既是游戏全程的判定器，也负责为参与者撰写冗余值报告。在这场由 AI 主导的测试中，玩家身处地图中的狭窄路径，驾驶车辆沿直线前进，并不断响应系统下达的精确校准指令。直线在这里不仅是一条道路，也代表系统定义的正确路径、效率路径与标准路径。",
+        "游戏结束后，玩家将得到一份完整报告。报告无意给出定性结论，它所呈现的并非人的能力不足，而是系统的精确要求与人的身体执行之间难以消除的不兼容，作品由此提出疑问：当人的非精确性被统一定义为冗余时，我们需要重新审视的，究竟是人的局限，还是那套将精确与效率视为唯一标准的系统？"
+      ],
+      "cover": "assets/works/linz/cover.webp",
+      "images": [
+        {
+          "src": "assets/works/linz/ars-1.webp",
+          "source": "ZH 2026-11-09 对话附件（原文件未找到）",
+          "kind": "现场",
+          "width": 1850,
+          "height": 1041
+        },
+        {
+          "src": "assets/works/linz/ars-2-b.webp",
+          "source": "ZH 2026-11-09 对话附件（原文件未找到）",
+          "kind": "现场",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "src": "assets/works/linz/ars-grid.webp",
+          "source": "由 ars-3、4、5、6 拼成",
+          "kind": "现场四宫格",
+          "width": 4010,
+          "height": 2944
+        }
+      ],
+      "sources": [
+        "12FPS·Portfolio_20261031.pdf 第 4–5 页"
+      ],
+      "missing": [
+        "吴振华具体分工与完整合作者待补",
+        "对外展出信息仍需独立核对"
+      ],
+      "notes": [],
+      "english": [
+        "A driving test run by AI: the system keeps interfering, you keep correcting, and every deviation you made together is charged to you as redundancy.",
+        "Contemporary technological narratives use AI to construct a myth of efficiency-driven liberation, where optimal solutions become absolute metrics. Within this logic, humans are reduced to functional nodes, and anything without measurable utility is deemed redundant. This work stages a game in which an AI evaluates players navigating a narrow path while responding to decision prompts. The resulting report raises a question: are human qualities beyond efficiency worth revaluing?"
+      ]
+    },
+    {
+      "slug": "bianbaishu",
+      "category": "游戏 · 交互",
+      "title": {
+        "zh": "辩白书",
+        "en": "Libro de Justificación"
+      },
+      "year": 2025,
+      "type": "多模态 AI 交互空间",
+      "location": "西安方所",
+      "summary": "走进书塔中央，向 AI 发问——它为你辩护的话语从纱幕上落下，在你四周堆成高塔，又在下一次追问时坍塌。",
+      "paragraphs": [
+        "作品以AI程序化的“输入指令—产生结果—形成交互”运作模式为切入点，将博尔赫斯小说中“存在却不可寻”的辩白书意象转化并融入动态交互空间。在方所书塔这一兼具文学与文明属性的空间内，系统地构建了一套AI视觉交互程序。该程序不仅在循环自辩，还能为观众进行辩护。其解释文字通过虚拟逻辑链串联成闭环，随后如砖块般下坠、堆砌，形成“虚拟巴别塔”。每当观众追问，塔身便在崩塌与重建的循环中，始终保持未完成的建构状态。",
+        "在“巴别塔”的故事里，人类因语言的混乱而被迫放弃通天的野心。如今，技术的发展为我们编织出全新的“通用语言”。然而，当我们深入审视观众与AI的语言交互时，会发现这座看似严密的“解释之塔”，正像不可寻见的“辩白书”一样，始终摇摆在真实世界的多义性、理解过程的偏差性，以及人类共识的不断流动之间。"
+      ],
+      "cover": "assets/works/bianbaishu/cover.webp",
+      "images": [
+        {
+          "src": "assets/works/bianbaishu/01.webp",
+          "source": "艺术作品/辩白书-AI交互空间/辩白书-横1.JPG",
+          "kind": "原图",
+          "width": 2000,
+          "height": 1500
+        },
+        {
+          "src": "assets/works/bianbaishu/yellow-2-v2.webp",
+          "source": "艺术作品/辩白书-AI交互空间/《辩白书》作品图片 (2).jpg",
+          "kind": "现场",
+          "width": 857,
+          "height": 1238,
+          "layout": "pair"
+        },
+        {
+          "src": "assets/works/bianbaishu/yellow-3-v2.webp",
+          "source": "艺术作品/辩白书-AI交互空间/《辩白书》作品图片 (3).jpg",
+          "kind": "现场",
+          "width": 857,
+          "height": 1238,
+          "layout": "pair"
+        },
+        {
+          "src": "assets/works/bianbaishu/blue-1-v2.webp",
+          "source": "艺术作品/辩白书-AI交互空间/辩白书-竖1.JPG",
+          "kind": "现场",
+          "width": 1500,
+          "height": 2000
+        }
+      ],
+      "sources": [
+        "《辩白书》作品介绍.png",
+        "12FPS·Portfolio_20261031.pdf 第 6–9 页"
+      ],
+      "missing": [
+        "英文标题：资料中为西班牙语 Libro de Justificación；英文待补",
+        "具体分工与合作者待补"
+      ],
+      "notes": [
+        "来源图片与作品集的英文正文误贴了《第一步》的内容，未采用。"
+      ],
+      "english": [
+        "Step into the heart of the book tower and question the AI: the words it offers in your defence fall across the gauze screens, piling into a tower around you, then collapsing at your next question.",
+        "Taking AI's programmed loop of \"input instruction, generated result, interaction\" as its starting point, the work turns the image of the book of vindication in Borges's story, a book that exists yet can never be found, into a responsive interactive space. Inside the Fangsuo book tower, a space steeped in literature and civilisation, the work builds a complete AI visual interaction program. The program does not only argue for itself in a loop; it also argues on the visitor's behalf. Its explanations are linked by a virtual chain of logic into a closed loop, then fall and pile up like bricks into a \"Virtual Tower of Babel\". Each time a visitor presses further, the tower is caught in a cycle of collapse and rebuilding, and remains forever under construction.",
+        "In the story of Babel, the confusion of languages forced humans to give up their ambition to reach heaven. Today, technology is weaving a new \"universal language\" for us. Yet when we look closely at how visitors and AI speak to each other, this seemingly rigorous \"tower of explanation\", like the book of vindication that can never be found, keeps swaying between the ambiguity of the real world, the drift of understanding and the ever-shifting human consensus."
+      ]
+    },
+    {
+      "slug": "redo-id",
+      "category": "影像 · Mapping",
+      "title": {
+        "zh": "重置 ID",
+        "en": "Redo ID"
+      },
+      "year": 2026,
+      "type": "Mapping",
+      "location": "亚洲国际 Mapping 大赛（进行中）",
+      "summary": "一场永不完工的覆写——世界没有成品，我们既是素材，也是编辑者。",
+      "paragraphs": [
+        "世界从来没有一个最终的“成品”。我们所身处的社会结构、城市景观、甚至我们每天面对的日常现实，永远处于一种被搭建、被修改、被测试的“未完成状态”。当事物的虚拟性与可编辑性被彻底暴露，在算法编辑的底层逻辑里，报错、撤销以及不断地重构，本就是通往下一个版本的必经之路。",
+        "生命与社会的演进同样如此，它们并非为了抵达某个一劳永逸的完美结局。在这个永远无法完工的覆写剧场里，我们既是素材，也是操作者；既是样本，也是编辑者；既被环境塑形，也共同塑造世界。"
+      ],
+      "cover": "assets/works/redo-id/cover.webp",
+      "images": [
+        {
+          "src": "assets/works/redo-id/scene-comp-1f.webp",
+          "source": "合成：AI 场景底 + 单帧/1.png",
+          "kind": "AI 生成场景",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "src": "assets/works/redo-id/page-3.webp",
+          "source": "艺术作品/Redo ID- Mapping/Redo ID 视觉材料.pdf 第 3 页，去右上角 logo",
+          "kind": "视觉材料单页",
+          "width": 1600,
+          "height": 1200,
+          "layout": "two"
+        },
+        {
+          "src": "assets/works/redo-id/page-4.webp",
+          "source": "艺术作品/Redo ID- Mapping/Redo ID 视觉材料.pdf 第 4 页，去右上角 logo",
+          "kind": "视觉材料单页",
+          "width": 1600,
+          "height": 1200,
+          "layout": "two"
+        },
+        {
+          "src": "assets/works/redo-id/page-5.webp",
+          "source": "艺术作品/Redo ID- Mapping/Redo ID 视觉材料.pdf 第 5 页，去右上角 logo",
+          "kind": "视觉材料单页",
+          "width": 1600,
+          "height": 1200,
+          "layout": "two"
+        },
+        {
+          "src": "assets/works/redo-id/page-6.webp",
+          "source": "艺术作品/Redo ID- Mapping/Redo ID 视觉材料.pdf 第 6 页，去右上角 logo",
+          "kind": "视觉材料单页",
+          "width": 1600,
+          "height": 1200,
+          "layout": "two"
+        },
+        {
+          "src": "assets/works/redo-id/page-7.webp",
+          "source": "艺术作品/Redo ID- Mapping/Redo ID 视觉材料.pdf 第 7 页，去右上角 logo",
+          "kind": "视觉材料单页",
+          "width": 1600,
+          "height": 1200,
+          "layout": "two"
+        },
+        {
+          "src": "assets/works/redo-id/page-8.webp",
+          "source": "艺术作品/Redo ID- Mapping/Redo ID 视觉材料.pdf 第 8 页，去右上角 logo",
+          "kind": "视觉材料单页",
+          "width": 1600,
+          "height": 1200,
+          "layout": "two"
+        }
+      ],
+      "sources": [
+        "Redo ID 视觉材料.pdf",
+        "12FPS·Portfolio_20261031.pdf 第 20–21 页"
+      ],
+      "missing": [
+        "具体地点、展出状态、个人分工及合作者待补"
+      ],
+      "notes": [
+        "图片为原文件夹“单帧”，不标为现场照片。"
+      ],
+      "english": [
+        "An overwriting that never ends: the world has no finished version, and we are both its material and its editors.",
+        "The world has never been a finished final product. The social structures we inhabit, urban landscapes, and even the everyday reality we encounter remain perpetually unfinished—continually constructed, revised, and trialed. When the virtuality and editability of all things are fully laid bare, errors, undo actions and constant reconstruction are inherent steps leading to the next iteration within the underlying logic of algorithmic editing.",
+        "The evolution of life and society follows the same rule. They are never meant to reach a permanent, flawless end state. Inside this ever-unfinished theatre of overwriting, we serve as both raw material and operator, both test subject and editor. We are shaped by our surroundings, yet collectively we reshape the world."
+      ]
+    },
+    {
+      "slug": "null-id",
+      "category": "影像 · Mapping",
+      "title": {
+        "zh": "空值 ID",
+        "en": "Null ID"
+      },
+      "year": 2026,
+      "type": "Mapping",
+      "location": "俄罗斯喀山 · NUR 灯光节投稿作品",
+      "summary": "一段 Mapping 影像——无意义的像素缝合成一张张面孔，凝视着现实，却没有一个真实的人。",
+      "paragraphs": [
+        "如今，图像的生产早已脱离画框，化作包围身体的空间环境。当媒介开始拥有重塑现实的能力，我们面对的不仅是感官的过载，更是“人类主体性”的深刻危机。",
+        "“ID系列”新作《NULL_ID》将视角切入这场危机。在AI拟像泛滥的当下，作品以代表“拒绝赋值”的 NULL 为名，探讨数字时代下的身份消亡与“技术易容”。视觉被强制降维至电子媒介最底层的物理颗粒——无信息的RGB像素点阵。这些毫无意义的代码颗粒在不断流转中缝合成一张张虚构的面孔，它们凝视着现实，却不具备任何真实的人类属性。作品试图用这种由底层代码驱动的虚拟伪装，去瘫痪当下过度运转的意义生产系统，拷问何为真实的自我。"
+      ],
+      "cover": "assets/works/null-id/cover.webp",
+      "images": [
+        {
+          "src": "assets/works/null-id/03.webp",
+          "source": "艺术作品/Null ID- Mapping/Null ID 现场 (3).png",
+          "kind": "现场照片",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "src": "assets/works/null-id/01-crop.webp",
+          "source": "艺术作品/Null ID- Mapping/Null ID 现场 (1).png",
+          "kind": "现场照片，裁去顶部黑边",
+          "width": 1014,
+          "height": 1524,
+          "layout": "pair"
+        },
+        {
+          "src": "assets/works/null-id/02.webp",
+          "source": "艺术作品/Null ID- Mapping/Null ID 现场 (2).png",
+          "kind": "现场照片",
+          "width": 1450,
+          "height": 1085,
+          "layout": "pair"
+        }
+      ],
+      "sources": [
+        "NULL_ID-12FPSLab-Statement.pdf",
+        "吴振华 ZH·Portfolio.pdf 第 9–10 页"
+      ],
+      "missing": [
+        "展出活动、具体分工及合作者待补"
+      ],
+      "notes": [
+        "图标是白色占位图，待重新设计。"
+      ],
+      "english": [
+        "A projection-mapping piece: meaningless pixels stitch together faces that gaze at reality, with no one real behind them.",
+        "Today, image production has long broken free from the confines of the frame, expanding into spatial environments that completely engulf the physical body. As media acquire the power to directly reshape reality, we are confronted not merely with sensory overload, but with a profound crisis of human subjectivity.",
+        "NULL_ID, the latest work in the \"ID Series\", dives directly into this crisis. In an era saturated with AI simulacra, the title draws upon \"NULL\"—a code term denoting an unassigned value or a refusal to be defined—to explore the dissolution of identity and the \"technological masquerade\" in the digital age. The visual language is forcefully stripped down to the lowest physical denominator of electronic media: an array of meaningless RGB pixels. In their continuous flux, these senseless data particles stitch together fabricated faces that gaze out at reality, yet remain entirely devoid of any genuine human essence. By deploying this code-driven virtual camouflage, the artwork seeks to paralyze our hyperactive system of meaning production, ultimately interrogating the very nature of the authentic self."
+      ]
+    },
+    {
+      "slug": "enter-id",
+      "category": "影像 · Mapping",
+      "title": {
+        "zh": "输入 ID",
+        "en": "Enter ID"
+      },
+      "year": 2025,
+      "type": "Mapping",
+      "location": "重庆 · 第四届重庆国际光影文化旅游季 · 重庆国际 Mapping 大赛入围作品",
+      "summary": "从一次强制识别开始，到一次框选删除结束——在信息洪流里，为自己留一片空白。",
+      "paragraphs": [
+        "《Enter ID》是一次关于数字时代创作状态的视觉实验。技术的沉压漫过周身时，个体是如何被卷入、缠绕最终又重获片刻空白的过程？",
+        "作品以 Face ID 的强制识别为开端，我们被迫进入算法系统。随后，熟悉的 UI 符号构成了喧嚣的数据紊流，在信息过载的黑洞中，代表理性秩序的 XYZ 轴与服务器强势迫降，试图将感性体验强行纳入三维坐标的数学逻辑中。随着坐标的演化，秩序被撕裂瓦解，画面被推向播放器界面。在这里，屏幕最底层的 RGB 矩阵与 AI 生成的未知图像相互渗透、拉扯，进度条的反复跳跃，这是我们在技术洪流中试图把握的焦灼与博弈。当这种张力达到顶峰，无形的数据最终实体化为沉重的堆积物。最后，鼠标光标冷静介入，选中对象让一切归零。"
+      ],
+      "cover": "assets/works/enter-id/cover.webp",
+      "images": [
+        {
+          "src": "assets/works/enter-id/01.webp",
+          "source": "艺术作品/Enter ID- Mapping/现场照片.png",
+          "kind": "原图",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "src": "assets/works/enter-id/02-clean.webp",
+          "source": "艺术作品/Enter ID- Mapping/3.png",
+          "kind": "原图，去右上角 logo",
+          "width": 1500,
+          "height": 2000,
+          "layout": "pair"
+        },
+        {
+          "src": "assets/works/enter-id/03-clean.webp",
+          "source": "艺术作品/Enter ID- Mapping/4.png",
+          "kind": "原图，去右上角 logo",
+          "width": 1500,
+          "height": 2000,
+          "layout": "pair"
+        },
+        {
+          "src": "assets/works/enter-id/act-1.webp",
+          "source": "艺术作品/Enter ID- Mapping/12FPS Lab 作品概念脚本.pdf 第 3 页，整页",
+          "kind": "ACT1",
+          "width": 1000,
+          "height": 1993,
+          "layout": "acts"
+        },
+        {
+          "src": "assets/works/enter-id/act-2.webp",
+          "source": "艺术作品/Enter ID- Mapping/12FPS Lab 作品概念脚本.pdf 第 4 页，整页",
+          "kind": "ACT2",
+          "width": 1000,
+          "height": 1993,
+          "layout": "acts"
+        },
+        {
+          "src": "assets/works/enter-id/act-3.webp",
+          "source": "艺术作品/Enter ID- Mapping/12FPS Lab 作品概念脚本.pdf 第 5 页，整页",
+          "kind": "ACT3",
+          "width": 1000,
+          "height": 1993,
+          "layout": "acts"
+        },
+        {
+          "src": "assets/works/enter-id/act-4.webp",
+          "source": "艺术作品/Enter ID- Mapping/12FPS Lab 作品概念脚本.pdf 第 6 页，整页",
+          "kind": "ACT4",
+          "width": 1000,
+          "height": 1993,
+          "layout": "acts"
+        },
+        {
+          "src": "assets/works/enter-id/act-5.webp",
+          "source": "艺术作品/Enter ID- Mapping/12FPS Lab 作品概念脚本.pdf 第 7 页，整页",
+          "kind": "ACT5",
+          "width": 1000,
+          "height": 1993,
+          "layout": "acts"
+        },
+        {
+          "src": "assets/works/enter-id/act-6.webp",
+          "source": "艺术作品/Enter ID- Mapping/12FPS Lab 作品概念脚本.pdf 第 8 页，整页",
+          "kind": "ACT6",
+          "width": 1000,
+          "height": 1993,
+          "layout": "acts"
+        },
+        {
+          "src": "assets/works/enter-id/act-7.webp",
+          "source": "艺术作品/Enter ID- Mapping/12FPS Lab 作品概念脚本.pdf 第 9 页，整页",
+          "kind": "ACT7",
+          "width": 1000,
+          "height": 1993,
+          "layout": "acts"
+        },
+        {
+          "src": "assets/works/enter-id/act-8.webp",
+          "source": "艺术作品/Enter ID- Mapping/12FPS Lab 作品概念脚本.pdf 第 10 页，整页",
+          "kind": "ACT8",
+          "width": 1000,
+          "height": 1993,
+          "layout": "acts"
+        }
+      ],
+      "sources": [
+        "12FPS Lab 作品概念脚本.pdf",
+        "12FPS·Portfolio_20261031.pdf 第 18–19 页"
+      ],
+      "missing": [
+        "展出活动、具体分工及合作者待补"
+      ],
+      "notes": [],
+      "english": [
+        "It begins with a forced scan and ends with a single select-and-delete: a moment of blankness carved out of the flood of data.",
+        "\"Enter ID\" is a visual experiment exploring creative states in the digital age. When technological oppression envelops us, how are individuals drawn into, entangled by, and ultimately reclaimed by fleeting moments of blankness? The work begins with Face ID's mandatory recognition, forcing us into algorithmic systems. Familiar UI symbols then form a chaotic data torrent, where rational order represented by XYZ axes and servers crash into the black hole of information overload, attempting to force emotional experiences into the mathematical logic of three-dimensional coordinates. As coordinates evolve, order is torn apart, and the frame shifts to a media player interface. Here, the RGB matrix at the screen's bottom layer intertwines with AI-generated unknown images, while the progress bar repeatedly jumps—this captures our anxiety and struggle to grasp the technological tide. When this tension peaks, invisible data materializes as heavy accumulations. Finally, the mouse cursor calmly intervenes, selecting objects to reset everything to zero."
+      ]
+    },
+    {
+      "slug": "tuomin",
+      "category": "影像 · Mapping",
+      "title": {
+        "zh": "脱敏",
+        "en": "Desensitized"
+      },
+      "year": 2024,
+      "type": "Mapping",
+      "location": "2024 重庆国际 Mapping 大赛投稿作品",
+      "summary": "一段 Mapping 影像——媒介为我们织出以讯息为食的皮肤，越敏感，也越麻木。",
+      "paragraphs": [
+        "数字媒介使我们的存在与全人类发展密切相关，又使全人类的类态也包容在我们身上。我们必然深度参与着自己每一个行为所产生的结果，也促使我们无法再扮演所谓超然物外和脱离社会的角色。媒介已经改变接收、处理和反馈信息的方式，这必将会为全人类编织出层层以讯息为食的敏感肌肤。"
+      ],
+      "cover": "assets/works/tuomin/scene-glow-20261108.png",
+      "images": [
+        {
+          "src": "assets/works/tuomin/scene-glow-20261108.png",
+          "source": "作品库 22.png 原始帧，参照用户所给舞台与观众图片以 AI 生成模拟现场并添加轻微辉光",
+          "kind": "AI 场景效果图",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "src": "assets/works/tuomin/01.webp",
+          "source": "艺术作品/脱敏- Mapping/11.png",
+          "kind": "原图",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/works/tuomin/02.webp",
+          "source": "艺术作品/脱敏- Mapping/22.png",
+          "kind": "原图",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/works/tuomin/03.webp",
+          "source": "艺术作品/脱敏- Mapping/33.jpg",
+          "kind": "原图",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "assets/works/tuomin/video-frame-16s.webp",
+          "source": "艺术作品/脱敏- Mapping/《脱敏》.mp4，约 16 秒",
+          "kind": "视频原始帧",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sources": [
+        "简介.png",
+        "11.png",
+        "22.png",
+        "33.jpg"
+      ],
+      "missing": [],
+      "notes": [],
+      "detail_images": [
+        {
+          "src": "assets/works/tuomin/scene-glow-20261108.png",
+          "source": "作品库 22.png 原始帧，参照用户所给舞台与观众图片以 AI 生成模拟现场并添加轻微辉光",
+          "kind": "AI 场景效果图",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "src": "assets/works/tuomin/01.webp",
+          "source": "艺术作品/脱敏- Mapping/11.png",
+          "kind": "原图",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/works/tuomin/02.webp",
+          "source": "艺术作品/脱敏- Mapping/22.png",
+          "kind": "原图",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/works/tuomin/03.webp",
+          "source": "艺术作品/脱敏- Mapping/33.jpg",
+          "kind": "原图",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "assets/works/tuomin/video-frame-02s.webp",
+          "source": "艺术作品/脱敏- Mapping/《脱敏》.mp4，约 2 秒",
+          "kind": "视频原始帧",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/works/tuomin/video-frame-16s.webp",
+          "source": "艺术作品/脱敏- Mapping/《脱敏》.mp4，约 16 秒",
+          "kind": "视频原始帧",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/works/tuomin/video-frame-32s.webp",
+          "source": "艺术作品/脱敏- Mapping/《脱敏》.mp4，约 32 秒",
+          "kind": "视频原始帧",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "detail_layout": [
+        [
+          "scene-glow-20261108.png"
+        ],
+        [
+          "01.webp",
+          "02.webp",
+          "03.webp"
+        ],
+        [
+          "video-frame-02s.webp",
+          "video-frame-16s.webp",
+          "video-frame-32s.webp"
+        ]
+      ],
+      "english": [
+        "A projection-mapping piece: media weave us a skin that feeds on information, growing more sensitive and more numb at once.",
+        "Digital media bind our existence closely to the development of all humankind, and in turn hold the condition of all humankind within each of us. We are inevitably deeply involved in the consequences of every action we take, and can no longer play the part of someone detached from the world and apart from society. Media have changed the way we receive, process and respond to information, and in doing so will weave for all humankind layer upon layer of sensitive skin that feeds on information."
+      ]
+    },
+    {
+      "slug": "fight-lanina",
+      "category": "装置",
+      "title": {
+        "zh": "迎战拉尼娜",
+        "en": "Fight La Niña"
+      },
+      "year": 2024,
+      "type": "灯光装置",
+      "location": "秦皇岛阿那亚 · 阿那亚戏剧节候鸟 300",
+      "summary": "一座为戏剧节降温的灯光装置——在酷暑里，让凉意先拉开序幕。",
+      "paragraphs": [
+        "极端气候现象“拉尼娜”降临在我们身边，带来持续长久的炎热，为阿那亚戏剧节候鸟300制造出全面新颖的冷却解决方案及具体措施，希望通过装置化的体现，为阿那亚戏剧节序幕拉开时的每一寸角落散布凉音，每一分烈阳热力澎湃的同时也提供冷却的能量。"
+      ],
+      "cover": "assets/works/fight-lanina/cover-frontal-centered-20261110.png",
+      "images": [
+        {
+          "src": "assets/works/fight-lanina/cover-frontal-centered-20261110.png",
+          "source": "ZH 指定正面版本，经 AI 调整底边颜色、烟雾和构图",
+          "kind": "AI 修饰图",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "src": "assets/works/fight-lanina/scene-wide-hose-20261108.png",
+          "source": "作品库 作品.jpg，参考原始照片和方案图，经 AI 修饰、细叶片添加灯带；再次按原图调整立柱及叶片灯带、环境，参照正面图重做底部软管与灯带",
+          "kind": "AI 修饰图",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "src": "assets/works/fight-lanina/01.webp",
+          "source": "艺术作品/Fight Lanina-游戏互动装置/作品.jpg",
+          "kind": "原图",
+          "width": 1512,
+          "height": 1080
+        },
+        {
+          "src": "assets/works/fight-lanina/02.webp",
+          "source": "12FPS·Portfolio_20261031.pdf 第 38 页",
+          "kind": "PDF 图片裁切",
+          "width": 1622,
+          "height": 1082
+        },
+        {
+          "src": "assets/works/fight-lanina/03.webp",
+          "source": "12FPS·Portfolio_20261031.pdf 第 38 页",
+          "kind": "PDF 图片裁切",
+          "width": 814,
+          "height": 948
+        },
+        {
+          "src": "assets/works/fight-lanina/04.webp",
+          "source": "12FPS·Portfolio_20261031.pdf 第 38 页",
+          "kind": "PDF 图片裁切",
+          "width": 808,
+          "height": 948
+        },
+        {
+          "src": "assets/works/fight-lanina/detail-prop-sand-20261108.jpg",
+          "source": "Downloads/IMG_5551.JPG",
+          "kind": "原图",
+          "width": 1707,
+          "height": 1280
+        },
+        {
+          "src": "assets/works/fight-lanina/detail-hoses-red-20261108.jpg",
+          "source": "Downloads/IMG_5603.HEIC，转换为 JPEG",
+          "kind": "原图",
+          "width": 3860,
+          "height": 3875
+        },
+        {
+          "src": "assets/works/fight-lanina/detail-props-red-20261108.jpg",
+          "source": "Downloads/fxn 2024-06-27 214403.065.jpg",
+          "kind": "原图",
+          "width": 3595,
+          "height": 2447
+        },
+        {
+          "src": "assets/works/fight-lanina/concept-poster-pdf-20261108.jpg",
+          "source": "《FightLaNina》方案册.pdf 第 1 页内嵌图片",
+          "kind": "方案效果图",
+          "width": 3860,
+          "height": 2171
+        },
+        {
+          "src": "assets/works/fight-lanina/concept-cover-new1-20261108.png",
+          "source": "作品库/Fight Lanina-游戏互动装置/新1.png；网页叠加原海报标题文字",
+          "kind": "方案效果图",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sources": [
+        "作品介绍.png",
+        "《FightLaNina》方案册.pdf",
+        "12FPS·Portfolio_20261031.pdf 第 37–38 页"
+      ],
+      "missing": [
+        "实际类型和交互方式待核对",
+        "吴振华具体分工及完整合作者待补"
+      ],
+      "notes": [
+        "作品库文件夹标为游戏互动装置，作品集标为灯光装置；原图介绍署名西美公共拓展计划 -solar，个人分工不可推断。"
+      ],
+      "detail_images": [
+        {
+          "src": "assets/works/fight-lanina/concept-cover-new1-20261108.png",
+          "source": "作品库/Fight Lanina-游戏互动装置/新1.png；网页叠加原海报标题文字",
+          "kind": "方案效果图",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "assets/works/fight-lanina/cover-frontal-centered-20261110.png",
+          "source": "ZH 指定正面版本，经 AI 调整底边颜色、烟雾和构图",
+          "kind": "AI 修饰图",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "src": "assets/works/fight-lanina/scene-wide-hose-20261108.png",
+          "source": "作品库 作品.jpg，参考原始照片和方案图，经 AI 修饰、细叶片添加灯带；再次按原图调整立柱及叶片灯带、环境，参照正面图重做底部软管与灯带",
+          "kind": "AI 修饰图",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "src": "assets/works/fight-lanina/04.webp",
+          "source": "12FPS·Portfolio_20261031.pdf 第 38 页",
+          "kind": "PDF 图片裁切",
+          "width": 808,
+          "height": 948
+        },
+        {
+          "src": "assets/works/fight-lanina/detail-prop-sand-20261108.jpg",
+          "source": "Downloads/IMG_5551.JPG",
+          "kind": "原图",
+          "width": 1707,
+          "height": 1280
+        },
+        {
+          "src": "assets/works/fight-lanina/detail-hoses-red-20261108.jpg",
+          "source": "Downloads/IMG_5603.HEIC，转换为 JPEG",
+          "kind": "原图",
+          "width": 3860,
+          "height": 3875
+        },
+        {
+          "src": "assets/works/fight-lanina/detail-props-red-20261108.jpg",
+          "source": "Downloads/fxn 2024-06-27 214403.065.jpg",
+          "kind": "原图",
+          "width": 3595,
+          "height": 2447
+        }
+      ],
+      "detail_layout": [
+        [
+          "concept-cover-new1-20261108.png"
+        ],
+        [
+          "scene-wide-hose-20261108.png",
+          "04.webp"
+        ],
+        [
+          "cover-frontal-centered-20261110.png"
+        ],
+        [
+          "detail-prop-sand-20261108.jpg",
+          "detail-hoses-red-20261108.jpg",
+          "detail-props-red-20261108.jpg"
+        ]
+      ],
+      "english": [
+        "A lighting installation that cools a theatre festival: amid the heat, coolness raises the curtain first.",
+        "The extreme climate phenomenon known as La Niña has arrived, bringing prolonged and intense heat. In response, a comprehensive and innovative cooling solution has been created specifically for Migratory Birds 300 at the Aranya Theatre Festival. Through an installation-based approach, the design aims to spread refreshing sounds throughout every corner as the festival’s opening unfolds, offering cooling energy amid the blazing sun and intense heat."
+      ]
+    },
+    {
+      "slug": "diyibu",
+      "category": "游戏 · 交互",
+      "title": {
+        "zh": "第一步",
+        "en": "First Step"
+      },
+      "year": 2024,
+      "type": "游戏交互装置",
+      "location": "西安",
+      "summary": "一台会突然改变方向的学步车——在被打断的行走里，重新迈出第一步。",
+      "paragraphs": [
+        "该作品基于人工智能将智力转化为可存储能源、革新生产效率，并有望使我们摆脱繁重的体力劳动的趋势，构思了这款未来概念训练机器。它以儿童学步车为灵感载体，却颠覆传统的训练范式。",
+        "选择学步机作为原型，是因为行走这一动作，堪称人类活动中最基础、最纯粹的“最小单元”。它既承载着人类探索世界的原始本能，又能够通向无数可能性。作品通过随机干预行进轨迹，将简单位移转化为动态交互，打破行动惯性，促使体验者在不可预知的训练中重新认知身体与空间。",
+        "训练中的机器干预将行走塑造成“生存游戏”，迫使使用者在不确定情境中重构行动逻辑。而这种漫无目的的行动，则意味着总能从中期待意外之事，正如柏拉图所言，生活必须得像做游戏，玩玩游戏，献献祭品，唱歌跳舞，如此这般，此人方能取悦众神，方能御敌自卫，方能战场取胜。"
+      ],
+      "cover": "assets/works/diyibu/cover-6-ai-final-20261108.png",
+      "images": [
+        {
+          "src": "assets/works/diyibu/cover-6-ai-final-20261108.png",
+          "source": "作品库/艺术作品/第一步-游戏交互装置/6.JPG，经 AI 扩图与修饰；门洞压暗",
+          "kind": "AI 修饰图",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "src": "assets/works/diyibu/cover-front-ai-20261108.png",
+          "source": "《第一步》正面照（assets/works/diyibu/02.webp），参考 6.JPG，经 AI 扩图与修饰",
+          "kind": "AI 修饰图",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "src": "assets/works/diyibu/01.webp",
+          "source": "《第一步》.docx / word/media/image4.jpeg",
+          "kind": "Word 内嵌原图",
+          "width": 2000,
+          "height": 1852
+        },
+        {
+          "src": "assets/works/diyibu/02.webp",
+          "source": "《第一步》.docx / word/media/image2.jpeg",
+          "kind": "Word 内嵌原图",
+          "width": 1395,
+          "height": 2000
+        },
+        {
+          "src": "assets/works/diyibu/03.webp",
+          "source": "《第一步》.docx / word/media/image3.png",
+          "kind": "Word 内嵌原图",
+          "width": 1493,
+          "height": 2000
+        },
+        {
+          "src": "assets/works/diyibu/04.webp",
+          "source": "《第一步》.docx / word/media/image1.png",
+          "kind": "Word 内嵌原图",
+          "width": 1969,
+          "height": 2000
+        }
+      ],
+      "sources": [
+        "《第一步》.docx"
+      ],
+      "missing": [
+        "个人分工与合作者待补"
+      ],
+      "notes": [],
+      "detail_images": [
+        {
+          "src": "assets/works/diyibu/cover-6-ai-final-20261108.png",
+          "source": "6.JPG，经 AI 扩图与环境修饰",
+          "kind": "AI 修饰图",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "src": "assets/works/diyibu/front-side-wood-clean-20261108.png",
+          "source": "正面 02.webp 与侧面 04.webp，经 AI 处理、拼合并统一地板，参考封面统一干净暖白墙面与木地板",
+          "kind": "AI 修饰拼图",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "src": "assets/works/diyibu/participant-wood-clean-20261108.png",
+          "source": "人物照片 03.webp，经 AI 扩图及地板修饰，参考封面统一干净暖白墙面与木地板",
+          "kind": "AI 修饰图",
+          "width": 1448,
+          "height": 1086
+        }
+      ],
+      "english": [
+        "A baby walker that swerves without warning: in walking interrupted, we take the first step again.",
+        "This work responds to the rise of AI as a force that transforms intelligence into storable energy, reshapes productivity, and may one day free us from physical labor. Inspired by a baby walker, First Step imagines a future training machine that redefines the act of walking.",
+        "Walking, as the most basic human movement, carries both instinct and infinite possibility. By introducing random mechanical interventions, the work disrupts linear movement, turning simple locomotion into an unpredictable interaction. Participants must adapt their actions in real time, rethinking their relationship with body and space.",
+        "In this state of aimless motion, First Step becomes a kind of survival game—where uncertainty breeds new logic, and surprise becomes part of the journey. As Plato said, life must be lived as play: only through play can we please the gods, defend ourselves, and win the battle."
+      ]
+    },
+    {
+      "slug": "puyuan",
+      "category": "商业合作",
+      "title": {
+        "zh": "待织的辞海",
+        "en": "The Unwoven Sea of Words"
+      },
+      "year": 2026,
+      "type": "AI 语音交互文化空间",
+      "location": "浙江濮院古镇 · 北更楼",
+      "summary": "一套为古镇空间定制的 AI 语音交互 Mapping 系统。",
+      "paragraphs": [
+        "来到北更楼的人，只需对着话筒说出自己的姓氏。AI 识别出这个字，让它从空中缓缓坠落，与其他人的姓氏一起堆叠、碰撞、覆盖，最终汇入一面不断生长的「辞海」。",
+        "有人等着家人的姓氏出现，也有人站在原地，看陌生人的姓氏落进同一片海里。这些字不会永久停留：新的姓氏落下，旧的慢慢消失，像织布一样不断生成。濮院以织造闻名，这里织的是来来往往的人，以及他们之间短暂却真实的相遇。"
+      ],
+      "cover": "assets/works/puyuan/cover.webp",
+      "images": [
+        {
+          "src": "assets/works/puyuan/01.webp",
+          "source": "12FPS·Portfolio_20261031.pdf 第 13 页",
+          "kind": "PDF 图片裁切",
+          "width": 1028,
+          "height": 1370
+        },
+        {
+          "src": "assets/works/puyuan/02.webp",
+          "source": "12FPS·Portfolio_20261031.pdf 第 13 页",
+          "kind": "PDF 图片裁切",
+          "width": 1026,
+          "height": 1370
+        },
+        {
+          "src": "assets/works/puyuan/03.webp",
+          "source": "12FPS·Portfolio_20261031.pdf 第 13 页",
+          "kind": "PDF 图片裁切",
+          "width": 1028,
+          "height": 1358
+        },
+        {
+          "src": "assets/works/puyuan/04.webp",
+          "source": "12FPS·Portfolio_20261031.pdf 第 13 页",
+          "kind": "PDF 图片裁切",
+          "width": 1026,
+          "height": 1358
+        },
+        {
+          "src": "assets/works/puyuan/05.webp",
+          "source": "商业合作/濮院姓氏交互/现场照片3.JPG",
+          "kind": "原图",
+          "width": 1280,
+          "height": 1707
+        }
+      ],
+      "sources": [
+        "濮院姓氏交互/现场照片3.JPG",
+        "12FPS·Portfolio_20261031.pdf 第 12–13 页"
+      ],
+      "missing": [],
+      "notes": [
+        "11-14 ZH 定：文字按 ZH 小红书原文整理，不写委托方和分工"
+      ],
+      "english": [
+        "A custom AI voice-interaction and projection-mapping system for a historic town space.",
+        "Visitors to Beigeng Tower need only speak their family name into the microphone. AI recognises the character and lets it drift down from above, where it stacks, collides and overlaps with the names of others before joining an ever-growing “sea of words”.",
+        "Some wait for their family's names to appear; others stay where they are, watching strangers' names fall into the same sea. None of the characters stay for good: as new names fall, old ones fade, generated again and again like cloth on a loom. Puyuan is a town known for weaving, and what is woven here is the people who pass through and their brief but real encounters."
+      ],
+      "tech": {
+        "zh": "多模态语音识别听懂来访者说出的姓氏，结合梳理好的濮院在地姓氏文化，实时生成坠落、堆叠、重织的文字动画，再由 Mapping 投影铺满整面立体字墙，从程序开发到现场落地完整实现。",
+        "en": "Multimodal speech recognition understands the family name a visitor speaks, links it to Puyuan's curated local surname culture, and generates falling, stacking, re-weaving text animation in real time, which projection mapping then spreads across an entire sculpted wall of characters, carried through from software development to on-site installation."
+      },
+      "location_short": "濮院"
+    },
+    {
+      "slug": "liangshan",
+      "category": "商业合作",
+      "title": {
+        "zh": "量子荒岛",
+        "en": "Quantum Isle"
+      },
+      "year": 2026,
+      "type": "沉浸式 CAVE 粒子、吹气交互风车",
+      "location": "四川西昌 · 北斗之上星际幻城《地心谷》",
+      "summary": "流光粒子海浪 × 风车吹气互动：为「地下 3000 米」定制的沉浸式光影互动体验。",
+      "paragraphs": [
+        "量子荒岛位于《地心谷》的「地下 3000 米」。无数光点汇成海浪，在黑暗中涌起、翻卷，又退散成星尘。",
+        "墙上的风车留给孩子：凑近吹一口气，蝴蝶从吹气的方向飞出，气泡从面前升起，一直漂到穹顶。"
+      ],
+      "cover": "assets/works/liangshan/cover.webp",
+      "images": [
+        {
+          "src": "assets/works/liangshan/01.webp",
+          "source": "商业合作/3、凉山戏剧幻城/现场照片7.JPG",
+          "kind": "原图",
+          "width": 2000,
+          "height": 1500
+        },
+        {
+          "src": "assets/works/liangshan/02.webp",
+          "source": "商业合作/3、凉山戏剧幻城/现场照片8.JPG",
+          "kind": "原图",
+          "width": 1080,
+          "height": 607
+        }
+      ],
+      "sources": [
+        "现场照片7.JPG",
+        "现场照片8.JPG",
+        "现场视频"
+      ],
+      "missing": [],
+      "notes": [
+        "11-14 ZH：项目是西昌「北斗之上·星际幻城《地心谷》」，ZH 做了量子荒岛的粒子视觉和风车吹气交互，文字只写这两块；不写总包方（秀加科技）",
+        "资料：秀加科技公众号 2026-03-19 https://mp.weixin.qq.com/s/CLmdgy29YQhE5qQ8HxNPBQ"
+      ],
+      "tech": {
+        "zh": "由 Blender 海浪模拟生成的粒子系统铺满洞壁与地面，光点随浪涌起、翻卷、退散；四面墙上的感应风车捕捉游客吹出的气流，粒子从吹气的方向飞出，化作成群的荧光蝴蝶或一串串上浮的气泡。",
+        "en": "A particle system generated from Blender ocean-wave simulation covers the cave walls and floor, its points of light rising, curling and receding with each wave. Wind-sensing pinwheels on all four walls pick up each visitor's breath, and particles fly out from that direction as swarms of glowing butterflies or strings of rising bubbles."
+      },
+      "english": [
+        "Flowing particle waves × breath-powered pinwheels: an immersive light interaction experience built for a space \"3,000 metres underground\".",
+        "Quantum Isle sits \"3,000 metres underground\" in Earth Core Valley. Countless points of light gather into waves that rise and curl in the dark, then scatter into stardust.",
+        "The pinwheels on the walls are for children: lean in and blow, and butterflies fly out from the direction of your breath while bubbles rise in front of you, drifting all the way up."
+      ],
+      "location_short": "西昌"
+    },
+    {
+      "slug": "ph-laser",
+      "category": "商业合作",
+      "title": {
+        "zh": "无面狂欢",
+        "en": "Faceless Rave"
+      },
+      "year": 2025,
+      "type": "激光 × Mapping 视觉制作",
+      "location": "北京三里屯 · NEW PH",
+      "summary": "激光与音乐同步的雕塑光影。",
+      "paragraphs": [],
+      "cover": "assets/works/ph-laser/cover.webp",
+      "images": [
+        {
+          "src": "assets/works/ph-laser/01.webp",
+          "source": "商业合作/激光灯光秀-北京PH酒吧/现场照片.jpg",
+          "kind": "原图",
+          "width": 1080,
+          "height": 1932
+        },
+        {
+          "src": "assets/works/ph-laser/02.webp",
+          "source": "商业合作/激光灯光秀-北京PH酒吧/现场照片2.jpg",
+          "kind": "原图",
+          "width": 1620,
+          "height": 1080
+        },
+        {
+          "src": "assets/works/ph-laser/03.webp",
+          "source": "商业合作/激光灯光秀-北京PH酒吧/现场照片3.jpg",
+          "kind": "原图",
+          "width": 1620,
+          "height": 1080
+        },
+        {
+          "src": "assets/works/ph-laser/04.webp",
+          "source": "商业合作/激光灯光秀-北京PH酒吧/现场照片4.jpeg",
+          "kind": "原图",
+          "width": 1080,
+          "height": 661
+        },
+        {
+          "src": "assets/works/ph-laser/05.webp",
+          "source": "商业合作/激光灯光秀-北京PH酒吧/现场照片5.jpeg",
+          "kind": "原图",
+          "width": 1080,
+          "height": 661
+        }
+      ],
+      "sources": [
+        "现场照片.jpg",
+        "现场照片2.jpg",
+        "现场照片3.jpg",
+        "现场照片4.jpeg",
+        "现场照片5.jpeg"
+      ],
+      "missing": [],
+      "notes": [
+        "11-14 ZH：作品名《无面狂欢》，Relight × PH 北京，2025 年 10 月，三里屯 T+MALL NEW PH 激光厅；ZH 署名「制作总监 Anius」；帽衫人雕塑是黄玉龙作品；不写 Relight",
+        "资料：Relight工作室公众号 2025-12-20 https://mp.weixin.qq.com/s/pIr5pKZvecuosG_URAsy2Q"
+      ],
+      "location_short": "北京",
+      "tech": {
+        "zh": "为环绕舞台的帽衫人雕塑群制作部分视觉内容：激光沿雕塑、斗拱与钢管阵列的轮廓勾出线条，黑白城市与嘻哈快切动画在强拍与留白之间交替，整段影像与音乐节拍同步，在每晚零点开场的一分钟里让静止的雕塑醒过来。",
+        "en": "Part of the visuals for the ring of hooded-figure sculptures around the stage: lasers draw lines along the sculptures, the dougong brackets and the steel-pipe array, while black-and-white city scenes and fast-cut hip-hop animation alternate between hard beats and pauses. The whole piece is synced to the music, waking the still sculptures for one minute every night at midnight."
+      },
+      "english": [
+        "Light on sculpture, with lasers synced to the music."
+      ]
+    }
+  ]
+}
