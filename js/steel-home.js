@@ -191,8 +191,10 @@
     frame = requestAnimationFrame(step);
   }
   // Only the stroke between the first screen and Recent Work is animated; below it the page scrolls freely.
+  // 11-14 ZH: the snap between the first screen and Recent Work is switched off; the page scrolls freely.
+  const SNAP = false;
   function intercept(direction) {
-    if (reduced.matches || !direction) return false;
+    if (!SNAP || reduced.matches || !direction) return false;
     if (moving) return true;
     const target = recentStop(), y = scrollY;
     if (direction > 0 && y < target - 4) { animate(target); return true; }

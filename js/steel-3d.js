@@ -229,7 +229,11 @@
     draw();
     if(document.documentElement.dataset.look) paintShadow();
   }
-  function deferResize(){
+  // 11-14: on phones the address bar showing / hiding while scrolling only changes the height; do not rebuild the plate for that.
+  let lastResizeW=innerWidth;
+  function deferResize(e){
+    if(e&&e.type==='resize'&&matchMedia('(pointer:coarse)').matches&&innerWidth===lastResizeW)return;
+    lastResizeW=innerWidth;
     clearTimeout(resizeTimer);
     resizeTimer=setTimeout(()=>{if(performance.now()-lastScroll<180){deferResize();return;} resize();},250);
   }
