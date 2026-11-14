@@ -180,3 +180,6 @@ html.lb-open{overflow:hidden}
 @media(max-width:760px){.ms-commission #images .cm-intro>p,html[data-look] .ms-commission #images .cm-intro>p:first-child,.ms-commission #images .cm-intro>p+p,.ms-commission #images .cm-intro>.work-en{width:auto;margin-left:0}}
 /* 11-14 量子荒岛：四宫格 */
 .ms-commission #images .cm-grid4{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.ms-commission #images .cm-grid4 img{aspect-ratio:16/9;object-fit:cover}
+
+/* 11-14 手机修正：「返回艺术创作」在手机上不再吸顶，免得浮在正文上 */
+@media(max-width:760px){html body .ms-margin{position:static!important}}

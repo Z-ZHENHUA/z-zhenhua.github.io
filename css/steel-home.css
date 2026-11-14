@@ -450,3 +450,6 @@ html body .steel-content .contact-inner{width:calc(100% - 4 * var(--p));margin-l
 html body .steel-content #paper .paper-inner{padding:calc(var(--p) + 8px) 22px calc(.8 * var(--p) + 10px)}
 /* 11-14 蚀刻效果减弱（首页联系方式、栏目铭牌） */
 .contact-information h2,.contact-details,.contact-codes>div>span:not(.qr),.plate-label .paper-heading h2,.plate-label .paper-heading>a{text-shadow:0 1px 0 rgba(238,233,220,.22)!important}
+
+/* 11-14 手机修正：首页联系方式钢板底部留多一点，WeChat 字样不压到底下那排铆钉 */
+@media(max-width:650px){html body .steel-content .contact{padding-bottom:calc(4 * var(--p))}}
