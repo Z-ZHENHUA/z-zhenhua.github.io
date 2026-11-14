@@ -26,8 +26,9 @@
     });
   }
   const video = document.querySelector('.video-slot video'), sound = document.querySelector('.video-sound');
-  // 11-14: looping videos (量子荒岛、无面狂欢) play like a GIF: silent, no sound button.
-  if (video && !video.loop) {
+  // 11-14: a video without autoplay (量子荒岛、无面狂欢) waits on its cover until tapped, plays with sound, and goes back to the cover when it ends.
+  if (video && !video.hasAttribute('autoplay')) video.addEventListener('ended', () => video.load());
+  if (video && !video.loop && video.hasAttribute('autoplay')) {
     video.muted = false;
     const unmute = () => { video.muted = false; if (sound) sound.hidden = true; video.play().catch(() => {}); };
     video.play().catch(() => { video.muted = true; video.play().catch(() => {}); if (sound) sound.hidden = false; });
