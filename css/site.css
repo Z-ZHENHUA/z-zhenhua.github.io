@@ -175,3 +175,7 @@ html body .site-codes figcaption{display:block}
 
 /* 11-14 手机标头（ZH：四个栏目都要放出来，每页一样）：一行放不下，改成两行——上面 logo + 中/EN，下面四个栏目铺满一行；不再用折叠菜单 */
 @media(max-width:650px){html body .site-header{height:auto!important;grid-template-columns:1fr auto!important;grid-template-rows:46px auto;padding:0 14px 9px!important;row-gap:0;align-items:center}html body .site-header .brand{grid-row:1;grid-column:1}html body .site-header .header-right{grid-row:1;grid-column:2}html body .site-header .desktop-nav{grid-row:2;grid-column:1/-1;display:flex!important;justify-content:space-between;gap:5px;min-width:0}html body .site-header .desktop-nav .pill{display:inline-flex!important;padding:5px 8px;font-size:11px;min-width:0}html body .site-header .menu-toggle,html body .mobile-menu{display:none!important}}
+
+/* 11-14 ZH：电脑上标头四个栏目移到右边，挨着中/EN 右对齐；手机第二行也靠右 */
+@media(min-width:651px){html body .site-header .desktop-nav{margin-left:auto!important;margin-right:0!important;justify-self:end}html body .site-header .header-right{margin-left:10px!important}}
+@media(max-width:650px){html body .site-header .desktop-nav{justify-content:flex-end}}

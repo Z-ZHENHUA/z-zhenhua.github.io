@@ -39,3 +39,12 @@
     addEventListener('pointerdown', e => { if (video.muted && !e.target.closest('video')) unmute(); }, {once: true});
   }
 })();
+
+// 11-14: work films live on B站. The page shows the work's lead image with a play button;
+// the B站 player is only loaded (and starts playing) after a click, so the page stays light.
+document.querySelectorAll('.bili-cover').forEach(btn => btn.addEventListener('click', () => {
+  const f = document.createElement('iframe');
+  f.src = `https://player.bilibili.com/player.html?isOutside=true&bvid=${btn.dataset.bvid}&p=1&high_quality=1&danmaku=0&autoplay=1`;
+  f.title = btn.dataset.title || ''; f.setAttribute('allow', 'autoplay; fullscreen; picture-in-picture'); f.allowFullscreen = true; f.setAttribute('scrolling', 'no'); f.setAttribute('frameborder', '0');
+  btn.replaceWith(f);
+}));

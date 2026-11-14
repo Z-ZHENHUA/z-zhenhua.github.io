@@ -174,7 +174,7 @@ html[data-look] .filter.active,html[data-look] .filter.active:hover{background:#
   radial-gradient(circle,var(--page-wall) 0 3.4px,transparent 3.9px) 9px calc(100% - 9px)/20px 20px no-repeat,
   radial-gradient(circle,var(--page-wall) 0 3.4px,transparent 3.9px) calc(100% - 9px) calc(100% - 9px)/20px 20px no-repeat,
   linear-gradient(rgba(176,176,174,.55),rgba(168,168,166,.55)),
-  url(../assets/steel-surface-v7.webp) center/1000px auto repeat!important}
+  url(../assets/steel-surface-v7.webp) center/cover no-repeat!important}
 .site-contact h2{padding-bottom:12px;border-bottom:1px solid rgba(40,40,38,.55);margin-bottom:18px}
 /* 11-14 About 加展览经历：通栏，年份在左、事件居中、地点靠右 */
 .about-sheet{grid-template-areas:"me artist" "me builder" "exh exh"}
@@ -192,3 +192,6 @@ html[data-look] .filter.active,html[data-look] .filter.active:hover{background:#
 .about-exh-sheet h2{display:flex;flex-direction:column;gap:6px;margin:0 0 10px;font:700 clamp(20px,1.8vw,26px)/1.2 Doto,FusionPixel,sans-serif;color:#1d1f1d}
 .about-exh-sheet h2 [lang=zh-CN]{font:400 14px/1.3 FusionPixel,sans-serif}
 @media(max-width:760px){.about-sheet{grid-template-areas:"me" "artist" "builder"}}
+
+/* 11-14 ZH：中文模式下四个栏目页铭牌只留英文（英文模式仍保留中文小字） */
+html:not(.lang-en) .page-plate h1 [lang=zh-CN]{display:none}
