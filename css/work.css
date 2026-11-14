@@ -183,3 +183,6 @@ html.lb-open{overflow:hidden}
 
 /* 11-14 手机修正：「返回艺术创作」在手机上不再吸顶，免得浮在正文上 */
 @media(max-width:760px){html body .ms-margin{position:static!important}}
+
+/* 11-14：作品完整视频改嵌 B 站播放器 */
+.video-slot iframe{display:block;width:100%;height:100%;border:0;background:#000}
