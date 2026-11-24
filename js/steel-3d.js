@@ -38,6 +38,9 @@
   // Light looks sit on an ivory wall, so a baked shadow layer goes under the 3D canvas.
   const shadowLayer=document.createElement('canvas');
   shadowLayer.className='steel-shadow';shadowLayer.setAttribute('aria-hidden','true');board.prepend(shadowLayer);
+  // 11-24 demo: plate-tone — ?plate=0.8 darkens only the steel; the holes' light is drawn on top and stays as bright.
+  // ?plate=0.06 lowers the steel's base tone by that much; ?tex=1.6 strengthens brushing, grain and hole lips (texture).
+  const PLATE_BASE=.715-Math.min(.2,Math.max(0,+(new URLSearchParams(location.search).get('plate')||.1))), PLATE_TEX=Math.min(3,Math.max(.5,+(new URLSearchParams(location.search).get('tex')||2)));
   const surfaceUniforms={boardWidth:{value:1},steelGain:{value:1},fillHoles:{value:0}};
   let metrics, lastScroll = 0, resizeTimer = 0, layoutKey = '';
   function remove(mesh) { if (!mesh) return; root.remove(mesh); mesh.geometry.dispose(); }
@@ -126,8 +129,8 @@
         float facing=dot(holeDir,vec2(.7071));
         // A chamfer around each small hole: shaded on the upper left, catching light on the lower right.
         float lip=perforated&&hd>=holeR ? (1.-smoothstep(holeR,holeR*1.45,hd))*facing*.12 : 0.;
-        float calibrated=.715+local+glow+.012*sin(t*2.4+.6)+fine*.02+coarse*.012+brushed*.022+(reflected-.82)*rimWeight*.45+lip;
-        if(abs(vNormal.z)>.98) gl_FragColor.rgb=vec3(clamp(calibrated,.56,.9))*steelGain;
+        float calibrated=${PLATE_BASE.toFixed(3)}+(local+glow+.012*sin(t*2.4+.6)+fine*.02+coarse*.012+brushed*.022+(reflected-.82)*rimWeight*.45+lip)*${PLATE_TEX.toFixed(3)};
+        if(abs(vNormal.z)>.98) gl_FragColor.rgb=vec3(clamp(calibrated,${(0.56-(0.715-PLATE_BASE)).toFixed(3)},.9))*steelGain;
         else { float edgeLight=clamp(.66+.3*(vNormal.y-vNormal.x)*.7071,.42,.97); gl_FragColor.rgb=vec3(edgeLight); }
         if(perforated && hd<holeR && fillHoles>.5) gl_FragColor=vec4(vec3(mix(.1,.3,smoothstep(-.9,.9,facing*hd/holeR))),1.);`);
 
